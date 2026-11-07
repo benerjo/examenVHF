@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entraînement VHF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="brand" data-nav="accueil" type="button">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 3v18M7 7a7 7 0 0 0 0 10M17 7a7 7 0 0 1 0 10M4 4a11 11 0 0 0 0 16M20 4a11 11 0 0 1 0 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </span>
+      <span>Entraînement VHF</span>
+    </button>
+    <nav class="tabs" aria-label="Navigation principale">
+      <button type="button" data-nav="accueil">Accueil</button>
+      <button type="button" data-nav="stats">Statistiques</button>
+      <button type="button" data-nav="stats-questions">Questions</button>
+      <button type="button" data-nav="parametres">Paramètres</button>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <h2 id="modal-title"></h2>
+      <p id="modal-text"></p>
+      <div class="modal-actions">
+        <button type="button" class="btn ghost" id="modal-cancel">Annuler</button>
+        <button type="button" class="btn primary" id="modal-ok">Confirmer</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="qmodal" class="modal" hidden>
+    <div class="modal-box wide" role="dialog" aria-modal="true" aria-labelledby="qmodal-title">
+      <div class="qmodal-head">
+        <h2 id="qmodal-title"></h2>
+        <button type="button" class="icon-btn" id="qmodal-close" aria-label="Fermer">×</button>
+      </div>
+      <div id="qmodal-body"></div>
+    </div>
+  </div>
+
+  <!-- Questions : data/manuel-vhf-2025-qcm.js, seule source (généré par tools/build-questions.py). -->
+  <script src="data/manuel-vhf-2025-qcm.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
