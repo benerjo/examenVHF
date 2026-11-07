@@ -1,4 +1,3 @@
-// Généré par tools/build-questions.py à partir de qa/*.validated.json — ne pas modifier à la main.
 window.QUESTIONS_DATA = {
  "source_pdf": "manuel-vhf-2025.pdf",
  "categories": [
@@ -83,21 +82,21 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q1002",
    "type": "qcm",
-   "question": "Quel exemple le manuel donne-t-il d'une installation de télécommunications qui ne peut pas garantir les communications navire-navire et navire-terre qu'assure l'installation radioélectrique de bord ?",
+   "question": "Lequel de ces moyens de télécommunications ne permet pas de garantir les communications entre navires et entre un navire et la terre, contrairement à l'installation radioélectrique VHF de bord ?",
    "choices": [
-    "L'EPIRB",
-    "L'ASN",
-    "L'AIS",
-    "Le GSM"
+    "Le GSM (téléphone mobile)",
+    "La VHF fixe",
+    "Le portophone (VHF portative)",
+    "L'ASN (appel sélectif numérique)"
    ],
-   "answer": "Le GSM",
-   "explanation": "Le manuel indique que l'installation radioélectrique de bord permet des communications que d'autres installations, par exemple le GSM, ne peuvent pas garantir.",
+   "answer": "Le GSM (téléphone mobile)",
+   "explanation": "L'installation radioélectrique de bord (VHF fixe, portophone, ASN) permet une communication entre les navires et entre un navire et la terre que d'autres installations de télécommunications, par exemple le GSM, ne peuvent pas garantir.",
    "reminder": "La VHF garantit les communications navire-navire et navire-terre, ce que le GSM ne garantit pas.",
    "source": {
     "page": 4,
     "quote": "L’installation radioélectrique à bord permet une communication entre les navires et entre un navire et la terre que d’autres installations de télécommunications (par ex. : GSM, cf. point 3.3) ne peuvent pas garantir."
    },
-   "category": "cadre-legal-autorisations",
+   "category": "equipements-installations",
    "difficulty": "facile",
    "kind": "memoire"
   },
@@ -214,7 +213,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q1008",
    "type": "qcm",
-   "question": "Dans quelle catégorie de communications le manuel classe-t-il la correspondance publique et les opérations portuaires ?",
+   "question": "À quelle catégorie de communications appartiennent la correspondance publique et les opérations portuaires ?",
    "choices": [
     "Les communications de détresse, d'urgence et de sécurité",
     "Les communications entre les stations à bord d'un navire",
@@ -979,7 +978,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q1043",
    "type": "qcm",
-   "question": "Dans quel cas, cité par le manuel, l'autorisation de station est-elle révoquée ?",
+   "question": "Dans lequel de ces cas l'autorisation de station est-elle révoquée ?",
    "choices": [
     "En cas de navigation en zone 7",
     "En cas de violation du secret des communications (article 41 de la loi du 13 juin 2005)",
@@ -1063,7 +1062,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2001",
    "type": "qcm",
-   "question": "Selon le manuel, quelle est la plage de puissance faible d'une station de navire VHF fixe ?",
+   "question": "Quelle est la plage de puissance faible d'une station de navire VHF fixe ?",
    "choices": [
     "0,5 à 1 watt",
     "1 à 6 watts",
@@ -1136,7 +1135,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2005",
    "type": "qcm",
-   "question": "Que prévoit-on à bord pour un appareil VHF fixe ?",
+   "question": "Comment un appareil VHF fixe est-il alimenté et relié à une antenne à bord d'un navire ?",
    "choices": [
     "Une batterie intégrée et une antenne télescopique sur l'appareil",
     "Une alimentation séparée, l'antenne étant intégrée à l'appareil",
@@ -1241,7 +1240,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2010",
    "type": "qcm",
-   "question": "Comparé à un équipement VHF fixe, que faut-il savoir sur un portophone ?",
+   "question": "Comparé à un équipement VHF fixe, quelles sont les caractéristiques d'un portophone (VHF portative) en matière de portée et de batterie ?",
    "choices": [
     "Sa portée est supérieure grâce à sa mobilité",
     "Sa batterie dure plus longtemps mais sa portée est plus faible",
@@ -1367,7 +1366,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2016",
    "type": "qcm",
-   "question": "Où figurent les canaux auxquels s'applique la réduction de puissance ?",
+   "question": "En navigation intérieure, dans quel document figure la liste des canaux auxquels s'applique la réduction de puissance (0,5 à 1 watt) ?",
    "choices": [
     "À l'annexe 2 de l'arrangement Rainwat",
     "À l'annexe 1 de l'arrangement Rainwat",
@@ -1409,7 +1408,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2018",
    "type": "qcm",
-   "question": "D'après le manuel, pourquoi un smartphone n'est-il pas pratique en cas de détresse ?",
+   "question": "Pourquoi un smartphone n'est-il pas un moyen pratique pour appeler à l'aide en cas de détresse ?",
    "choices": [
     "Si le réseau est très occupé ou si le correspondant est en ligne, l'appel ne peut pas être rendu prioritaire",
     "Il ne fonctionne jamais sur les voies de navigation intérieure",
@@ -1451,7 +1450,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2020",
    "type": "qcm",
-   "question": "Quel avantage du mariphone sur le smartphone en mer le manuel cite-t-il au sujet de la localisation ?",
+   "question": "En mer, quel avantage le mariphone (VHF) présente-t-il par rapport au smartphone en matière de localisation ?",
    "choices": [
     "Le mariphone peut être facilement localisé via les ondes radio",
     "Le mariphone transmet automatiquement la position par SMS",
@@ -1472,7 +1471,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2021",
    "type": "qcm",
-   "question": "Quelle est la conclusion du manuel sur l'usage du smartphone à bord ?",
+   "question": "Quelle place un smartphone peut-il tenir dans la sécurité à bord d'un navire ?",
    "choices": [
     "Il peut remplacer le mariphone sur les voies de navigation intérieure",
     "Ce n'est pas un outil fiable pour la sécurité à bord d'un navire",
@@ -1535,7 +1534,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2024",
    "type": "qcm",
-   "question": "Dans le marquage CE complet des appareils pour les voies de navigation intérieure, que représente « NBnr » ?",
+   "question": "Le marquage CE complet des appareils radio destinés aux voies de navigation intérieure se présente sous la forme « CE NBnr ! ». Que représente « NBnr » ?",
    "choices": [
     "Le numéro ATIS attribué au bateau",
     "Le numéro d'identification de l'organisme notifié qui intervient dans l'évaluation de la conformité",
@@ -1561,7 +1560,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2025",
    "type": "qcm",
-   "question": "Dans le marquage CE des appareils pour les voies de navigation intérieure, qu'indique le point d'exclamation ?",
+   "question": "Le marquage CE complet des appareils radio destinés aux voies de navigation intérieure se présente sous la forme « CE NBnr ! ». Qu'indique le point d'exclamation ?",
    "choices": [
     "Que l'appareil n'a pas encore été évalué",
     "Que l'appareil est réservé aux navires SOLAS",
@@ -1582,7 +1581,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2026",
    "type": "qcm",
-   "question": "Selon le manuel, de quelles obligations fait mention la décision 2000/637/CE pour les équipements utilisés sur les voies de navigation intérieure ?",
+   "question": "Quelles obligations la décision européenne 2000/637/CE impose-t-elle aux équipements hertziens utilisés à bord des bateaux sur les voies de navigation intérieure ?",
    "choices": [
     "Le marquage « barre à roue » et le certificat « CE de type »",
     "L'interdiction de la double veille et du smartphone",
@@ -1734,7 +1733,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2033",
    "type": "qcm",
-   "question": "Quelle formule le manuel donne-t-il pour calculer la portée théorique en mer ?",
+   "question": "Quelle formule permet de calculer la portée théorique d'une liaison VHF en mer, T et R étant les hauteurs en mètres des antennes de l'émetteur et du récepteur au-dessus de l'eau ?",
    "choices": [
     "2,25 (T + R) = distance en milles nautiques",
     "2,25 (√T + √R) = distance en milles nautiques",
@@ -1755,7 +1754,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2034",
    "type": "qcm",
-   "question": "Deux yachts en mer ont chacun une antenne de 16 mètres (voir schéma). Quelle portée approximative le manuel indique-t-il dans des conditions atmosphériques normales ?",
+   "question": "Deux yachts en mer sont équipés d'un mariphone fixe relié à une antenne située à 16 mètres au-dessus de l'eau (voir schéma). Quelle distance approximative peuvent-ils franchir dans des conditions atmosphériques normales ?",
    "choices": [
     "18 milles nautiques",
     "9 milles nautiques",
@@ -2242,7 +2241,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2058",
    "type": "qcm",
-   "question": "Que dit le manuel du canal 70 pour la radiotéléphonie ?",
+   "question": "Le canal 70 peut-il être utilisé pour la radiotéléphonie (communications vocales) ?",
    "choices": [
     "Il sert de canal d'appel en phonie pour les stations côtières",
     "Il est utilisable à faible puissance",
@@ -2368,7 +2367,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2064",
    "type": "qcm",
-   "question": "À quelles conditions les canaux VHF maritimes non mentionnés à l'annexe 2 peuvent-ils être utilisés ?",
+   "question": "À quelles conditions une station de navire peut-elle utiliser des canaux VHF maritimes autres que ceux de la liste officielle des canaux pour la navigation maritime (annexe 2) ?",
    "choices": [
     "Librement, à faible puissance",
     "Avec l'autorisation préalable de l'IBPT et s'ils figurent expressément sur l'autorisation",
@@ -2499,7 +2498,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q2070",
    "type": "qcm",
-   "question": "Dans quels pays voisins la même réglementation s'applique-t-elle au canal 72 ?",
+   "question": "Dans quels pays voisins de la Belgique la même réglementation du canal 72 (communications sociales et familiales à faible puissance en navigation intérieure) s'applique-t-elle ?",
    "choices": [
     "Pays-Bas, Luxembourg et Royaume-Uni",
     "Pays-Bas, France et Allemagne",
@@ -2987,7 +2986,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3002",
    "type": "qcm",
-   "question": "Comment le manuel recommande-t-il de transmettre les nombres en cas de difficulté de compréhension ?",
+   "question": "Comment est-il recommandé de transmettre les nombres en cas de difficulté de compréhension ?",
    "choices": [
     "Chiffre par chiffre",
     "En les répétant trois fois sans les décomposer",
@@ -3029,7 +3028,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3004",
    "type": "qcm",
-   "question": "Comment se prononce le mot de code de la lettre Q selon la table d'épellation ?",
+   "question": "Comment se prononce le mot de code de la lettre Q dans la table d'épellation internationale ?",
    "choices": [
     "KI LO",
     "KÉ BEK",
@@ -3092,7 +3091,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3007",
    "type": "qcm",
-   "question": "Dans la table d'épellation des lettres, comment les syllabes accentuées de la prononciation sont-elles signalées ?",
+   "question": "Dans la table d'épellation internationale, la prononciation de chaque mot de code des lettres (AL FAH, BRA VO, TCHA LI...) est indiquée en syllabes. Comment la syllabe accentuée y est-elle signalée ?",
    "choices": [
     "Elles sont placées entre crochets",
     "Elles sont écrites en italique",
@@ -3197,7 +3196,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3013",
    "type": "qcm",
-   "question": "Selon la note de la table des chiffres, comment les syllabes des mots de code des chiffres sont-elles accentuées ?",
+   "question": "Dans la table d'épellation des chiffres (NADAZERO, UNAONE, BISSOTWO...), comment les syllabes des mots de code sont-elles accentuées ?",
    "choices": [
     "Seule la première syllabe est accentuée",
     "La syllabe accentuée est imprimée en gras",
@@ -3265,7 +3264,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3016",
    "type": "qcm",
-   "question": "D'après les exemples du manuel, un navire en panne par temps de tempête et qui risque de s'échouer émet quel type de communication ?",
+   "question": "Un navire est en panne par temps de tempête et risque de s'échouer. Quel type de communication doit-il émettre ?",
    "choices": [
     "Une communication d'urgence (PAN PAN)",
     "Une communication de routine",
@@ -3286,7 +3285,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3017",
    "type": "qcm",
-   "question": "D'après les exemples du manuel, un navire en panne par un vent de force 5 dans une zone de trafic maritime émet :",
+   "question": "Un navire est en panne par un vent de force 5 dans une zone de trafic maritime. Quel type de communication doit-il émettre ?",
    "choices": [
     "Une communication d'urgence (PAN PAN)",
     "Une communication de sécurité (SECURITY)",
@@ -3307,7 +3306,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3018",
    "type": "qcm",
-   "question": "D'après les exemples du manuel, quel message émet un navire en panne par temps calme dans une zone à faible trafic maritime ?",
+   "question": "Un navire est en panne par temps calme dans une zone à faible trafic maritime. Quel type de communication doit-il émettre ?",
    "choices": [
     "Une communication d'urgence (PAN PAN)",
     "Une communication de détresse (MAYDAY)",
@@ -3370,7 +3369,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3021",
    "type": "qcm",
-   "question": "Comment doivent être utilisés les mots clés comme MAYDAY, PAN PAN ou THIS IS ?",
+   "question": "Lors d'une communication menée dans une langue autre que l'anglais, comment doivent être utilisés les mots clés comme MAYDAY, PAN PAN ou THIS IS ?",
    "choices": [
     "Traduits dans la langue autorisée sur la voie d'eau",
     "Épelés avec la table d'épellation",
@@ -3412,7 +3411,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3023",
    "type": "qcm",
-   "question": "Comment le manuel définit-il une situation de détresse ?",
+   "question": "Qu'est-ce qu'une situation de détresse ?",
    "choices": [
     "Une situation de maladie à bord sans que la vie de la personne soit en danger",
     "Une situation de danger imminent pour une personne ou un navire, nécessitant une aide immédiate",
@@ -3433,15 +3432,15 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3024",
    "type": "qcm",
-   "question": "Selon le manuel, une prescription peut-elle empêcher quelqu'un de prendre des mesures en vue de sauver des vies humaines ou de parer au danger ?",
+   "question": "Que prévoit la réglementation lorsqu'une personne doit prendre des mesures en vue de sauver des vies humaines ou de parer au danger ?",
    "choices": [
-    "Oui, si la station côtière n'a pas donné son autorisation",
-    "Non, aucune prescription ne peut l'en empêcher",
-    "Oui, s'il n'est pas commandant d'un navire astreint",
-    "Oui, si la mesure n'est pas prise sur le canal 16"
+    "Elle doit d'abord obtenir l'autorisation de la station côtière",
+    "Aucune prescription ne peut l'empêcher de prendre ces mesures",
+    "Seul le commandant d'un navire astreint peut prendre ces mesures",
+    "Ces mesures doivent obligatoirement être prises sur le canal 16"
    ],
-   "answer": "Non, aucune prescription ne peut l'en empêcher",
-   "explanation": "Le manuel est explicite : aucune prescription ne peut empêcher quelqu'un de prendre des mesures en vue de sauver des vies humaines ou de parer au danger. Les conditions proposées dans les autres choix n'existent pas.",
+   "answer": "Aucune prescription ne peut l'empêcher de prendre ces mesures",
+   "explanation": "Le manuel est explicite : aucune prescription ne peut empêcher quelqu'un de prendre des mesures en vue de sauver des vies humaines ou de parer au danger. En cas de danger, il peut même être dérogé aux instructions de la station côtière, qui doit en être informée par la suite.",
    "reminder": "Sauver des vies prime sur toute prescription.",
    "source": {
     "page": 23,
@@ -3679,7 +3678,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3036",
    "type": "qcm",
-   "question": "En ce qui concerne les informations nautiques, par qui l'accusé de réception d'un message de détresse est-il transmis ?",
+   "question": "Lorsqu'un appel de détresse est lancé sur le réseau Informations nautiques (navigation intérieure), par qui l'accusé de réception est-il transmis ?",
    "choices": [
     "Par la station côtière",
     "Par toute station de navire à proximité",
@@ -3815,7 +3814,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3042",
    "type": "qcm",
-   "question": "Selon le manuel, qui peut imposer le silence radio aux stations qui brouilleraient une communication de détresse ?",
+   "question": "Qui peut imposer le silence radio aux stations qui brouilleraient une communication de détresse ?",
    "choices": [
     "La station en détresse, mais aucune autre station",
     "Le poste de trafic, la centrale de secteur, l'unité qui coordonne les sauvetages, la station en détresse ou une autre station",
@@ -3878,7 +3877,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3045",
    "type": "qcm",
-   "question": "Dans la procédure PRUDENCE, comment se prononce l'appel CQ ?",
+   "question": "Dans le message PRUDENCE, qui autorise un trafic restreint pendant une communication de détresse, comment se prononce l'appel « à tous » CQ ?",
    "choices": [
     "CHARLIE QUEBEC",
     "CHARLIE QUATRE",
@@ -3899,7 +3898,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3046",
    "type": "qcm",
-   "question": "Dans la procédure PRUDENCE, quel mot peut remplacer ICI ?",
+   "question": "Dans le message PRUDENCE, qui autorise un trafic restreint pendant une communication de détresse, quel mot peut remplacer ICI ?",
    "choices": [
     "AT, prononcé ALFA TANGO",
     "TO, prononcé TANGO OSCAR",
@@ -3920,7 +3919,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3047",
    "type": "qcm",
-   "question": "Dans la procédure PRUDENCE, quel élément précède immédiatement l'identification de la station en détresse ?",
+   "question": "Dans le message PRUDENCE, qui autorise un trafic restreint pendant une communication de détresse, quel élément précède immédiatement l'identification de la station en détresse ?",
    "choices": [
     "Le mot PRUDENCE",
     "L'heure à laquelle le message de détresse est émis",
@@ -4014,7 +4013,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3051",
    "type": "qcm",
-   "question": "Selon le manuel, un échouement sans fuite de cargaison relève de quel type de communication ?",
+   "question": "Un navire s'est échoué sans fuite de cargaison et sans danger imminent. De quel type de communication relève ce cas ?",
    "choices": [
     "Communication de routine",
     "Message de sécurité (SÉCURITÉ)",
@@ -4035,7 +4034,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3052",
    "type": "qcm",
-   "question": "Une personne est malade à bord sans que sa vie soit en danger. Quel type de communication le manuel prévoit-il ?",
+   "question": "Une personne est malade à bord sans que sa vie soit en danger. Quel type de communication faut-il émettre ?",
    "choices": [
     "Un message de sécurité (SÉCURITÉ)",
     "Une communication d'urgence (PAN PAN)",
@@ -4103,7 +4102,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3055",
    "type": "qcm",
-   "question": "Qu'est-ce qu'un message de sécurité selon le manuel ?",
+   "question": "Qu'est-ce qu'un message de sécurité ?",
    "choices": [
     "Un message signalant un danger imminent pour un navire",
     "Un message de test de l'installation radio",
@@ -4171,7 +4170,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3058",
    "type": "qcm",
-   "question": "Dans une communication de routine navire-terre ou navire-navire, quel élément est éventuellement non requis dans le port ?",
+   "question": "Dans l'appel d'une communication de routine (navire-terre ou navire-navire), quel élément peut être omis lorsque le navire se trouve dans un port ?",
    "choices": [
     "Le nom du navire appelant",
     "Le nom de la station appelée",
@@ -4297,7 +4296,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3064",
    "type": "qcm",
-   "question": "Quelle est la durée maximale d'un signal test selon le manuel ?",
+   "question": "Quelle est la durée maximale d'un signal test ?",
    "choices": [
     "2,5 secondes",
     "1 minute",
@@ -4339,7 +4338,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3066",
    "type": "qcm",
-   "question": "Dans l'exemple d'essai du manuel, que répond Oostende Radio à OS1256 ?",
+   "question": "Un navire effectue un essai radio avec Oostende Radio sur le canal de travail de la station (« Oostende Radio, Oostende Radio, ICI OS1256, en essai, OVER »). Si la réception est bonne, que répond la station côtière ?",
    "choices": [
     "Libérez le canal 85",
     "Je vous reçois clairement et distinctement",
@@ -4347,7 +4346,7 @@ window.QUESTIONS_DATA = {
     "Quelle est votre position"
    ],
    "answer": "Je vous reçois clairement et distinctement",
-   "explanation": "Dans l'exemple d'essai, Oostende Radio répond « Je vous reçois clairement et distinctement ». Les autres phrases appartiennent à l'exemple de correspondance publique.",
+   "explanation": "La station côtière répond « OS1256, ICI Oostende Radio, je vous reçois clairement et distinctement, OVER ». Les autres phrases proviennent d'une communication de correspondance publique.",
    "reminder": "Réponse à un essai : « Je vous reçois clairement et distinctement ».",
    "source": {
     "page": 27,
@@ -4360,7 +4359,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3067",
    "type": "qcm",
-   "question": "Dans l'exemple d'essai, par quel mot OS1256 conclut-il la conversation ?",
+   "question": "À la fin d'un essai radio avec une station côtière, le navire remercie (« ICI OS1256, merci ») puis clôt la conversation. Par quel mot la termine-t-il ?",
    "choices": [
     "Over",
     "Silence fini",
@@ -4596,7 +4595,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3079",
    "type": "qcm",
-   "question": "Quel est le centre de coordination de sauvetage français cité par le manuel ?",
+   "question": "Quel est le centre de coordination de sauvetage français voisin de la zone belge ?",
    "choices": [
     "Le MRCC Ostende",
     "Oostende Radio",
@@ -4617,7 +4616,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3080",
    "type": "qcm",
-   "question": "Quel est le rôle d'Oostende Radio selon le manuel ?",
+   "question": "Quel est le rôle de la station côtière Oostende Radio ?",
    "choices": [
     "Coordonner les évacuations médicales",
     "Traiter et coordonner les incidents en mer",
@@ -4722,16 +4721,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3085",
    "type": "qcm",
-   "question": "Dans l'exemple de correspondance publique, sur quel canal OS1256 appelle-t-il d'abord Oostende Radio ?",
+   "question": "Un navire veut établir une communication de correspondance publique (appel téléphonique) via Oostende Radio. Sur quel canal, attribué à Oostende Radio, lance-t-il son appel initial avant d'être dirigé vers un canal de travail (le canal 85) ?",
    "choices": [
     "Le canal 16",
     "Le canal 7",
     "Le canal 67",
-    "Le canal 85"
+    "Le canal 70"
    ],
    "answer": "Le canal 7",
-   "explanation": "Dans l'exemple, OS1256 appelle Oostende Radio « sur le canal 7 », avant de passer sur le canal 85.",
-   "reminder": "Exemple CIAC : appel sur le canal 7, puis travail sur le 85.",
+   "explanation": "Le canal 7 est le canal attribué à Oostende Radio. Dans l'exemple de correspondance publique, le navire appelle Oostende Radio « sur le canal 7 », puis la station lui demande de libérer le canal 85 pour y poursuivre la communication.",
+   "reminder": "Correspondance publique : appel d'Oostende Radio sur son canal (7), puis communication sur le canal 85.",
    "source": {
     "page": 29,
     "quote": "Oostende Radio Oostende Radio ICI OS1256 OS1256 Sur le canal 7 Over"
@@ -4743,15 +4742,15 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3086",
    "type": "qcm",
-   "question": "Dans l'exemple de correspondance publique, quel est le code d'identification donné par OS1256 ?",
+   "question": "Lors d'une communication de correspondance publique via Oostende Radio, quelle information le navire donne-t-il sur le canal de travail avant de demander le numéro à joindre ?",
    "choices": [
-    "oscar-sierra-one-two",
-    "bravo-echo-one-two",
-    "delta-echo-two-one",
-    "bravo-echo-two-one"
+    "Son code d'identification auprès de l'autorité comptable (CIAC)",
+    "Son numéro MMSI",
+    "Son code ATIS",
+    "Le nom de son port d'attache"
    ],
-   "answer": "bravo-echo-two-one",
-   "explanation": "Sur le canal 85, OS1256 donne son code d'identification « bravo-echo-two-one » avant de demander le numéro à joindre, conformément à l'obligation de spécifier le code CIAC à chaque communication.",
+   "answer": "Son code d'identification auprès de l'autorité comptable (CIAC)",
+   "explanation": "L'accès à la correspondance publique exige un abonnement auprès d'une autorité comptable, identifiée par un code (CIAC) qui doit être spécifié lors de chaque communication. Dans l'exemple, le navire annonce « Mon code d'identification est bravo-echo-two-one » avant de demander le numéro à joindre.",
    "reminder": "On annonce son code d'identification (CIAC) avant de demander le numéro.",
    "source": {
     "page": 29,
@@ -4764,7 +4763,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3087",
    "type": "qcm",
-   "question": "Pourquoi est-il conseillé d'utiliser les mots OVER et OUT pendant la communication établie dans l'exemple ?",
+   "question": "Lors d'une communication de correspondance publique établie avec Oostende Radio sur un canal de travail, pourquoi est-il conseillé d'utiliser les mots OVER et OUT ?",
    "choices": [
     "Parce qu'il s'agit d'une communication simplex",
     "Parce que le canal 85 est un canal ASN",
@@ -4806,7 +4805,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3089",
    "type": "qcm",
-   "question": "Lequel de ces pays figure parmi les signataires de l'arrangement Rainwat cités par le manuel ?",
+   "question": "Lequel de ces pays est signataire de l'arrangement Rainwat ?",
    "choices": [
     "La Moldavie",
     "Le Royaume-Uni",
@@ -4895,7 +4894,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3093",
    "type": "qcm",
-   "question": "Selon le manuel, comment l'antenne VHF doit-elle être positionnée pour fonctionner correctement ?",
+   "question": "Comment l'antenne VHF doit-elle être positionnée pour fonctionner correctement ?",
    "choices": [
     "Horizontalement",
     "Inclinée à 45° vers l'avant",
@@ -4916,7 +4915,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q3094",
    "type": "qcm",
-   "question": "Quelle est la longueur approximative correcte d'une antenne VHF selon le manuel ?",
+   "question": "Quelle est la longueur approximative correcte d'une antenne VHF ?",
    "choices": [
     "Environ 50 cm",
     "Environ 4 m",
@@ -5162,7 +5161,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4006",
    "type": "qcm",
-   "question": "Quel terme anglais le manuel associe-t-il aux communications bateau-bateau ?",
+   "question": "Quel terme anglais désigne les communications bateau-bateau en navigation intérieure ?",
    "choices": [
     "Intraship",
     "Ship-shore",
@@ -5183,7 +5182,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4007",
    "type": "qcm",
-   "question": "Quel exemple d'usage le manuel donne-t-il pour les communications bateau-bateau ?",
+   "question": "Lequel de ces usages relève des communications bateau-bateau (Intership) en navigation intérieure ?",
    "choices": [
     "La manœuvre des aussières et l'amarrage",
     "L'échange d'informations sur l'état des voies navigables",
@@ -5225,7 +5224,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4009",
    "type": "qcm",
-   "question": "Quels modes d'exploitation le manuel mentionne-t-il pour les communications d'informations nautiques ?",
+   "question": "Quels modes d'exploitation sont possibles pour les communications d'informations nautiques en navigation intérieure ?",
    "choices": [
     "Duplex, semi-duplex ou simplex",
     "Duplex uniquement",
@@ -5293,7 +5292,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4012",
    "type": "qcm",
-   "question": "Quel usage le manuel cite-t-il en exemple pour les communications bateau-autorités portuaires ?",
+   "question": "Lequel de ces usages relève des communications bateau-autorités portuaires en navigation intérieure ?",
    "choices": [
     "Les instructions de manœuvre des aussières à bord",
     "La détermination de la route à suivre entre bateaux",
@@ -5618,7 +5617,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4027",
    "type": "qcm",
-   "question": "Quelle norme définit la structure du code ATIS selon le manuel ?",
+   "question": "Quelle norme définit la structure du code ATIS ?",
    "choices": [
     "Directive 2014/53/UE",
     "Directive 96/98/CE",
@@ -5665,7 +5664,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4029",
    "type": "qcm",
-   "question": "Dans le code ATIS, quelle valeur prend toujours le premier chiffre Z ?",
+   "question": "Le code ATIS a la structure Z MID X1X2 X3X4X5X6. Quelle valeur prend toujours le premier chiffre Z ?",
    "choices": [
     "2",
     "0",
@@ -5686,7 +5685,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4030",
    "type": "qcm",
-   "question": "Que représente le MID dans le code ATIS ?",
+   "question": "Le code ATIS a la structure Z MID X1X2 X3X4X5X6. Que représente le MID ?",
    "choices": [
     "Le numéro du port d'attache du bateau",
     "Le numéro d'identification maritime du pays d'enregistrement du bateau",
@@ -5707,7 +5706,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4031",
    "type": "qcm",
-   "question": "Que représentent les positions X1X2 du code ATIS ?",
+   "question": "Le code ATIS a la structure Z MID X1X2 X3X4X5X6. Que représentent les positions X1X2 ?",
    "choices": [
     "La deuxième ou troisième lettre de l'indicatif d'appel",
     "Les deux premiers chiffres de l'indicatif d'appel",
@@ -5728,7 +5727,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4032",
    "type": "qcm",
-   "question": "Dans le code ATIS, quel code X1X2 correspond à la lettre C ?",
+   "question": "Dans le code ATIS, les positions X1X2 codent une lettre de l'indicatif d'appel sous forme de nombre. Quel code X1X2 correspond à la lettre C ?",
    "choices": [
     "01",
     "03",
@@ -5745,16 +5744,16 @@ window.QUESTIONS_DATA = {
    "category": "identification-stations",
    "difficulty": "moyen",
    "illustration": {
-    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 138\" width=\"390\" height=\"138\"><rect x=\"0\" y=\"0\" width=\"390\" height=\"138\" fill=\"#f8fafc\"/><text x=\"195.0\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#1e3a8a\">Codage de la lettre dans X1X2</text><rect x=\"20.0\" y=\"45\" width=\"110\" height=\"44\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#1e3a8a\"/><text x=\"75.0\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\">A</text><text x=\"75.0\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" fill=\"#334155\">01</text><rect x=\"140.0\" y=\"45\" width=\"110\" height=\"44\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#1e3a8a\"/><text x=\"195.0\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\">B</text><text x=\"195.0\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" fill=\"#334155\">02</text><rect x=\"260.0\" y=\"45\" width=\"110\" height=\"44\" rx=\"6\" fill=\"#fde68a\" stroke=\"#1e3a8a\"/><text x=\"315.0\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\">C</text><text x=\"315.0\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" fill=\"#334155\">?</text></svg>",
-    "placement": "question",
-    "alt": "Trois cases A, B, C avec les codes 01 et 02 sous A et B, et un point d'interrogation sous C."
+    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 138\" width=\"390\" height=\"138\"><rect x=\"0\" y=\"0\" width=\"390\" height=\"138\" fill=\"#f8fafc\"/><text x=\"195.0\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#1e3a8a\">Codage de la lettre dans X1X2</text><rect x=\"20.0\" y=\"45\" width=\"110\" height=\"44\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#1e3a8a\"/><text x=\"75.0\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\">A</text><text x=\"75.0\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" fill=\"#334155\">01</text><rect x=\"140.0\" y=\"45\" width=\"110\" height=\"44\" rx=\"6\" fill=\"#dbeafe\" stroke=\"#1e3a8a\"/><text x=\"195.0\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\">B</text><text x=\"195.0\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" fill=\"#334155\">02</text><rect x=\"260.0\" y=\"45\" width=\"110\" height=\"44\" rx=\"6\" fill=\"#fde68a\" stroke=\"#1e3a8a\"/><text x=\"315.0\" y=\"73\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\">C</text><text x=\"315.0\" y=\"108\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"11\" fill=\"#334155\">03</text></svg>",
+    "placement": "explanation",
+    "alt": "Trois cases A, B, C avec les codes 01, 02 et 03 ; la case C (03) est surlignée."
    },
    "kind": "memoire"
   },
   {
    "id": "Q4033",
    "type": "qcm",
-   "question": "Que représentent les positions X3X4X5X6 du code ATIS ?",
+   "question": "Le code ATIS a la structure Z MID X1X2 X3X4X5X6. Que représentent les positions X3X4X5X6 ?",
    "choices": [
     "Le numéro MMSI complet",
     "Les 4 derniers chiffres du MID",
@@ -5775,7 +5774,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4036",
    "type": "qcm",
-   "question": "Quel organisme est mentionné à côté du MID dans le tableau du code ATIS ?",
+   "question": "Dans le code ATIS, le MID est le numéro d'identification maritime du pays d'enregistrement du bateau. De quel organisme ces numéros relèvent-ils ?",
    "choices": [
     "ETSI",
     "UIT-R",
@@ -5783,7 +5782,7 @@ window.QUESTIONS_DATA = {
     "OMI"
    ],
    "answer": "UIT-R",
-   "explanation": "Dans la colonne MID du tableau, la mention (UIT-R) accompagne la définition du numéro d'identification maritime du pays.",
+   "explanation": "La structure du code ATIS définit le MID comme le numéro d'identification maritime du pays d'enregistrement du bateau, en référence à l'UIT-R.",
    "reminder": "MID : numéro de pays relevant de l'UIT-R.",
    "source": {
     "page": 33,
@@ -5859,7 +5858,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4040",
    "type": "qcm",
-   "question": "Selon le manuel, à quoi sert notamment l'AIS ?",
+   "question": "À quoi sert notamment l'AIS (système d'identification automatique) ?",
    "choices": [
     "À identifier l'émetteur à la fin de chaque émission vocale",
     "À transmettre les alertes de détresse ASN",
@@ -6173,7 +6172,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4056",
    "type": "qcm",
-   "question": "Quels réglages le manuel associe-t-il au mode prévu pour les voies de navigation intérieure sur un appareil bi-mode ?",
+   "question": "Sur un appareil VHF bi-mode, qui permet de basculer entre les réglages fluviaux et maritimes, quels réglages caractérisent le mode prévu pour les voies de navigation intérieure ?",
    "choices": [
     "L'ATIS et la réduction de puissance",
     "L'AIS de classe A et l'ASN",
@@ -6278,7 +6277,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4061",
    "type": "qcm",
-   "question": "Comment le glossaire définit-il l'AIS ?",
+   "question": "Qu'est-ce que l'AIS (Automatic Identification System) ?",
    "choices": [
     "Un circuit qui active le haut-parleur au-delà d'un seuil",
     "Un système d'identification automatique des émetteurs radio à bord sur les voies intérieures",
@@ -6346,7 +6345,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4064",
    "type": "qcm",
-   "question": "Selon le glossaire, laquelle de ces communications fait partie des radiocommunications de bord (Intraship) ?",
+   "question": "Laquelle de ces communications fait partie des radiocommunications de bord (Intraship) ?",
    "choices": [
     "La communication avec un réseau téléphonique public",
     "Les instructions relatives à la manœuvre des aussières et à l'amarrage",
@@ -6451,7 +6450,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4069",
    "type": "qcm",
-   "question": "Combien de pays ont signé l'arrangement régional (Rainwat) selon le glossaire ?",
+   "question": "Combien de pays ont signé l'arrangement régional Rainwat ?",
    "choices": [
     "27",
     "12",
@@ -6477,7 +6476,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4070",
    "type": "qcm",
-   "question": "Selon le glossaire, quelle version de l'arrangement régional est en vigueur et téléchargeable sur le site Rainwat ?",
+   "question": "Quelle version de l'arrangement régional Rainwat est actuellement en vigueur et téléchargeable sur le site Rainwat ?",
    "choices": [
     "Arrangement Rainwat Bucarest 2012",
     "Arrangement Rainwat Londres 1974",
@@ -6519,7 +6518,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4073",
    "type": "qcm",
-   "question": "Selon le glossaire, de quoi l'OMI est-elle responsable ?",
+   "question": "De quoi l'OMI (Organisation maritime internationale) est-elle responsable ?",
    "choices": [
     "De la sécurité de la navigation",
     "De la coordination internationale des fréquences",
@@ -6545,7 +6544,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4074",
    "type": "qcm",
-   "question": "Quelle convention le glossaire cite-t-il comme instrument important de l'OMI ?",
+   "question": "Quelle convention constitue un instrument important de l'OMI ?",
    "choices": [
     "Le Règlement des radiocommunications (RR)",
     "La Convention SOLAS",
@@ -6587,7 +6586,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4076",
    "type": "qcm",
-   "question": "De quoi l'UIT est-elle chargée selon le glossaire ?",
+   "question": "De quoi l'UIT (Union internationale des télécommunications) est-elle chargée ?",
    "choices": [
     "De l'administration de l'arrangement Rainwat",
     "De la coordination internationale de l'utilisation des fréquences et de la normalisation des systèmes de télécommunications",
@@ -6608,7 +6607,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4077",
    "type": "qcm",
-   "question": "Quel outil majeur de l'UIT le glossaire cite-t-il ?",
+   "question": "Quel est l'outil majeur de l'UIT en matière de radiocommunications ?",
    "choices": [
     "Le Guide de radiocommunication CCNR",
     "Le Règlement des radiocommunications (RR)",
@@ -6650,7 +6649,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4079",
    "type": "qcm",
-   "question": "Comment le glossaire définit-il le service maritime de radiotéléphonie ?",
+   "question": "Qu'est-ce que le service maritime de radiotéléphonie ?",
    "choices": [
     "Un service réservé aux communications à bord d'un navire",
     "Un service international VHF sur les voies de navigation intérieure",
@@ -6692,7 +6691,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4081",
    "type": "qcm",
-   "question": "Que désigne la « procédure d'appel » dans le glossaire ?",
+   "question": "Que désigne la « procédure d'appel » en radiotéléphonie ?",
    "choices": [
     "La procédure d'enregistrement des communications",
     "La procédure de programmation de l'ATIS",
@@ -6713,7 +6712,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4082",
    "type": "qcm",
-   "question": "Comment le glossaire définit-il une installation radioélectrique ?",
+   "question": "Qu'est-ce qu'une installation radioélectrique à bord d'un navire ?",
    "choices": [
     "Une station radiotéléphonique à bord d'un navire pouvant être composée de plusieurs émetteurs",
     "Un appareil portatif utilisé sur le canal 15/17",
@@ -6734,7 +6733,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4083",
    "type": "qcm",
-   "question": "Comment le glossaire définit-il la radiotéléphonie pour la navigation intérieure ?",
+   "question": "Qu'est-ce que la radiotéléphonie pour la navigation intérieure ?",
    "choices": [
     "Un service national de radiotéléphonie HF sur les fleuves",
     "Un service maritime entre stations côtières et navires",
@@ -6802,7 +6801,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4086",
    "type": "qcm",
-   "question": "Quelle caractéristique le glossaire attribue-t-il à l'indicatif d'appel d'un navire ou bateau ?",
+   "question": "Quelle caractéristique possède l'indicatif d'appel d'un navire ou d'un bateau ?",
    "choices": [
     "Il change à chaque voyage",
     "Il est unique au monde",
@@ -6870,7 +6869,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4089",
    "type": "qcm",
-   "question": "Comment le glossaire définit-il une station de navire ?",
+   "question": "Qu'est-ce qu'une station de navire ?",
    "choices": [
     "Une station de radiotéléphonie mobile à bord d'un navire non amarré en permanence",
     "Une station à bord d'un navire amarré en permanence",
@@ -6917,7 +6916,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4092",
    "type": "qcm",
-   "question": "Selon le glossaire, qu'est-ce qu'un centre de trafic ?",
+   "question": "Qu'est-ce qu'un centre de trafic ?",
    "choices": [
     "Une base de données mondiale des navires",
     "Un organisme qui administre l'arrangement Rainwat",
@@ -6943,7 +6942,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4093",
    "type": "qcm",
-   "question": "Dans quels pays le glossaire situe-t-il les « postes de trafic » ?",
+   "question": "Dans quels pays trouve-t-on les « postes de trafic », centrales qui réceptionnent les appels de la navigation et informent sur la situation de la voie navigable ?",
    "choices": [
     "En Belgique et aux Pays-Bas",
     "Aux Pays-Bas et en Suisse",
@@ -6964,7 +6963,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4094",
    "type": "qcm",
-   "question": "Outre la réception des appels, quel rôle le glossaire attribue-t-il au poste de trafic ?",
+   "question": "Outre la réception des appels de la navigation, quel est le rôle d'un poste de trafic ?",
    "choices": [
     "Programmer les dispositifs ATIS",
     "Informer la navigation sur la situation de la voie navigable, et éventuellement guider le trafic",
@@ -6985,7 +6984,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4095",
    "type": "qcm",
-   "question": "Selon le glossaire, à quoi s'applique la notion de « navigation maritime » ?",
+   "question": "En matière de radiocommunications, à quoi s'applique la notion de « navigation maritime » ?",
    "choices": [
     "Aux voies de navigation intérieure ouvertes aux navires de mer",
     "Aux zones où le règlement de navigation maritime est d'application",
@@ -7006,7 +7005,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4096",
    "type": "qcm",
-   "question": "Selon le glossaire, que désignent les radiocommunications navire-navire (Intership) ?",
+   "question": "Que désignent les radiocommunications navire-navire (Intership) ?",
    "choices": [
     "Des radiocommunications à bord d'un seul navire",
     "Des liaisons entre un navire et un réseau public",
@@ -7027,7 +7026,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4097",
    "type": "qcm",
-   "question": "Quelle édition du Règlement des radiocommunications (RR) figure dans les règlements internationaux du manuel ?",
+   "question": "Quelle est l'édition de référence du Règlement des radiocommunications (RR) de l'UIT ?",
    "choices": [
     "Londres 1974",
     "Genève 1999",
@@ -7048,7 +7047,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4098",
    "type": "qcm",
-   "question": "Où et en quelle année la convention SOLAS a-t-elle été adoptée selon le manuel ?",
+   "question": "Où et en quelle année la convention SOLAS a-t-elle été adoptée ?",
    "choices": [
     "Londres, 1999",
     "Bucarest, 2012",
@@ -7069,7 +7068,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4099",
    "type": "qcm",
-   "question": "Quelle loi belge le manuel cite-t-il comme législation nationale sur les communications électroniques ?",
+   "question": "Quelle loi belge constitue la législation nationale relative aux communications électroniques ?",
    "choices": [
     "La loi du 29 juin 1964",
     "La loi du 13 novembre 1999",
@@ -7216,7 +7215,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4106",
    "type": "qcm",
-   "question": "Qui est excepté de l'interdiction de capter des radiocommunications (point 2° de l'article 41) ?",
+   "question": "Qui est excepté de l'interdiction de capter des radiocommunications qui ne lui sont pas destinées (article 41, 2°, de la loi du 13 juin 2005) ?",
    "choices": [
     "Les opérateurs des stations côtières",
     "Les officiers de police judiciaire cités à l'article 24 de la loi du 17 janvier 2003",
@@ -7415,37 +7414,37 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4116",
    "type": "qcm",
-   "question": "De quel document les exemples de communications de l'annexe sont-ils extraits ?",
+   "question": "Quel document relatif aux radiocommunications est édité par la Commission centrale pour la navigation du Rhin (CCNR) ?",
    "choices": [
-    "De la convention SOLAS (Londres, 1974)",
-    "Du Règlement des radiocommunications, Genève 2020",
-    "De l'arrangement Rainwat de Bucarest 2012",
-    "Du Guide de radiocommunication pour la navigation intérieure CCNR - 2017"
+    "Le Règlement des radiocommunications (RR)",
+    "Le Guide de radiocommunication pour la navigation intérieure",
+    "La Convention SOLAS",
+    "L'arrangement régional Rainwat"
    ],
-   "answer": "Du Guide de radiocommunication pour la navigation intérieure CCNR - 2017",
-   "explanation": "Le titre de l'annexe indique que les exemples sont extraits du Guide de radiocommunication pour la navigation intérieure CCNR - 2017.",
-   "reminder": "Exemples de messages : Guide CCNR 2017.",
+   "answer": "Le Guide de radiocommunication pour la navigation intérieure",
+   "explanation": "La CCNR, institution internationale qui traite toutes les questions relatives à la navigation intérieure, édite un « Guide de radiocommunication pour la navigation intérieure » ; les exemples de communications du manuel (MAYDAY, PAN PAN, SECURITE, routine) en sont extraits (édition 2017). Le Règlement des radiocommunications est l'outil majeur de l'UIT, la Convention SOLAS un instrument de l'OMI, et l'arrangement régional Rainwat est administré par le Comité Rainwat.",
+   "reminder": "Guide de radiocommunication pour la navigation intérieure = édité par la CCNR.",
    "source": {
-    "page": 41,
-    "quote": "EXEMPLES DE COMMUNICATIONS (EXTRAITS DU GUIDE DE RADIOCOMMUNICATION POUR LA NAVIGATION INTÉRIEURE CCNR - 2017)"
+    "page": 36,
+    "quote": "Le CCNR édite un « Guide de radiocommunication pour la navigation intérieure »."
    },
-   "category": "procedures-generales",
+   "category": "glossaire",
    "difficulty": "facile",
    "kind": "memoire"
   },
   {
    "id": "Q4117",
    "type": "qcm",
-   "question": "Dans l'exemple de détresse, sur quel canal l'automoteur « Karin » appelle-t-il la centrale de secteur d'Oberwesel ?",
+   "question": "Sur le Rhin, un automoteur entré en collision avec un automoteur-citerne appelle la centrale de secteur d'Oberwesel (Oberwesel Revierzentrale) pour demander de l'aide. Sur quel canal cet appel de détresse adressé à une centrale de secteur est-il émis ?",
    "choices": [
-    "Le canal 10 du réseau bateau-bateau",
-    "Le canal 18 du réseau Informations nautiques",
-    "Le canal 22 du réseau Informations nautiques",
-    "Le canal 16"
+    "Sur le canal 18, canal du réseau Informations nautiques de cette centrale de secteur",
+    "Sur le canal 16, fréquence internationale de détresse",
+    "Sur le canal 70, par appel sélectif numérique (ASN)",
+    "Sur le canal 77, canal des communications sociales"
    ],
-   "answer": "Le canal 18 du réseau Informations nautiques",
-   "explanation": "Karin appelle la centrale d'Oberwesel sur le canal 18 du réseau Informations nautiques après une collision.",
-   "reminder": "Karin (collision) : canal 18, Informations nautiques, centrale d'Oberwesel.",
+   "answer": "Sur le canal 18, canal du réseau Informations nautiques de cette centrale de secteur",
+   "explanation": "L'automoteur appelle la centrale de secteur d'Oberwesel sur le canal 18 du réseau Informations nautiques, réseau qui relie les bateaux aux autorités chargées de la voie navigable. Le canal 16 est la fréquence de détresse de la navigation maritime, l'ASN (canal 70) n'est pas autorisée sur les voies de navigation intérieure et le canal 77 est réservé aux communications sociales.",
+   "reminder": "Détresse adressée à une centrale de secteur : canal Informations nautiques de la centrale (ici le 18).",
    "source": {
     "page": 41,
     "quote": "L'automoteur ordinaire « Karin » appelle la centrale de secteur d'Oberwesel (Oberwesel Revierzentrale) sur le canal 18 du réseau Informations nautiques et demande de l'aide après une collision :"
@@ -7457,7 +7456,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4118",
    "type": "qcm",
-   "question": "Dans l'appel de détresse de « Karin », quel mot suit immédiatement « MAYDAY, MAYDAY, MAYDAY » ?",
+   "question": "Un automoteur (« Karin ») lance un appel de détresse en navigation intérieure (voir schéma). Quel mot suit immédiatement « MAYDAY, MAYDAY, MAYDAY » ?",
    "choices": [
     "THIS IS",
     "PAN PAN",
@@ -7465,7 +7464,7 @@ window.QUESTIONS_DATA = {
     "ALL STATIONS"
    ],
    "answer": "THIS IS",
-   "explanation": "L'appel de détresse commence par MAYDAY trois fois, suivi de THIS IS puis du nom du bateau répété trois fois et de l'indicatif FM 1234.",
+   "explanation": "L'appel de détresse commence par MAYDAY trois fois, suivi de THIS IS, puis du nom du bateau répété trois fois et de son indicatif d'appel (ici FM 1234).",
    "reminder": "Détresse : MAYDAY x3, THIS IS, nom x3, indicatif.",
    "source": {
     "page": 41,
@@ -7483,7 +7482,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4119",
    "type": "qcm",
-   "question": "Combien de fois le nom du bateau est-il prononcé dans la partie appel du message de détresse de « Karin » (après THIS IS) ?",
+   "question": "Dans un appel de détresse (MAYDAY), combien de fois le nom du bateau en détresse est-il prononcé après « THIS IS » ?",
    "choices": [
     "Une fois",
     "Trois fois",
@@ -7491,7 +7490,7 @@ window.QUESTIONS_DATA = {
     "Quatre fois"
    ],
    "answer": "Trois fois",
-   "explanation": "Après THIS IS, le nom « Automoteur ordinaire Karin » est répété trois fois, suivi de l'indicatif FM 1234.",
+   "explanation": "Après THIS IS, le nom du bateau en détresse est répété trois fois, suivi de son indicatif d'appel (exemple : « Automoteur ordinaire Karin » trois fois, puis FM 1234).",
    "reminder": "Appel de détresse : le nom est dit 3 fois.",
    "source": {
     "page": 41,
@@ -7504,15 +7503,15 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4120",
    "type": "qcm",
-   "question": "Comment « Karin » indique-t-il sa position dans son message de détresse sur le Rhin ?",
+   "question": "Un automoteur en détresse sur le Rhin doit indiquer sa position dans son message MAYDAY. Sous quelle forme la position est-elle donnée en navigation intérieure ?",
    "choices": [
-    "Avalant près de Mannheim, p.k. 424,30",
-    "Par sa latitude et sa longitude",
-    "Il ne donne pas sa position",
+    "Par le sens de navigation, un lieu proche et le point kilométrique (par exemple : avalant près de Mannheim, p.k. 424,30)",
+    "Par la latitude et la longitude",
+    "La position n'est pas indiquée dans le message de détresse",
     "Par le relèvement et la distance d'un phare"
    ],
-   "answer": "Avalant près de Mannheim, p.k. 424,30",
-   "explanation": "Karin indique son sens de marche et sa position par rapport à un lieu et au point kilométrique : avalant près de Mannheim, p.k. 424,30.",
+   "answer": "Par le sens de navigation, un lieu proche et le point kilométrique (par exemple : avalant près de Mannheim, p.k. 424,30)",
+   "explanation": "En navigation intérieure, le message de détresse donne la position au point kilométrique. Dans l'exemple, l'automoteur indique son sens de marche et sa position par rapport à un lieu et au point kilométrique : « Avalant près de Mannheim, p.k. 424,30 ».",
    "reminder": "Sur le fleuve : sens (avalant/montant) + lieu + point kilométrique.",
    "source": {
     "page": 41,
@@ -7525,16 +7524,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4121",
    "type": "qcm",
-   "question": "Quelle est la nature de la détresse de « Karin » ?",
+   "question": "Un automoteur est entré en collision avec un automoteur-citerne ; de la cargaison s'écoule et il y a danger d'incendie. Quel type de communication doit-il émettre ?",
    "choices": [
-    "Un homme tombé par-dessus bord",
-    "Une collision avec un automoteur-citerne",
-    "Un matelot blessé au bras",
-    "Un épais brouillard"
+    "Une communication de détresse (MAYDAY)",
+    "Une communication d'urgence (PAN PAN)",
+    "Un message de sécurité (SECURITE)",
+    "Une communication de routine"
    ],
-   "answer": "Une collision avec un automoteur-citerne",
-   "explanation": "Karin annonce « Suis entré en collision avec un automoteur-citerne », puis signale que de la cargaison s'écoule et un danger d'incendie.",
-   "reminder": "Karin : collision avec un automoteur-citerne.",
+   "answer": "Une communication de détresse (MAYDAY)",
+   "explanation": "Une collision avec écoulement de cargaison et danger d'incendie est une situation de danger imminent nécessitant une aide immédiate. L'exemple type correspondant est un appel de détresse MAYDAY (« Suis entré en collision avec un automoteur-citerne, de la cargaison s'écoule, danger d'incendie »).",
+   "reminder": "Collision + cargaison qui s'écoule + danger d'incendie = MAYDAY.",
    "source": {
     "page": 41,
     "quote": "Suis entré en collision avec un automoteur-citerne"
@@ -7546,16 +7545,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4122",
    "type": "qcm",
-   "question": "Par quelle demande « Karin » termine-t-il son message de détresse ?",
+   "question": "Dans un message de détresse, après avoir décrit la nature de la détresse (par exemple une collision avec danger d'incendie), quel élément le bateau indique-t-il ensuite ?",
    "choices": [
-    "Restez à l'écoute",
-    "Suivre les informations ultérieures",
-    "Prenez les mesures nécessaires",
-    "Interrompre la navigation"
+    "Le type d'assistance nécessaire (par exemple : « Prenez les mesures nécessaires »)",
+    "L'heure de fin de la détresse suivie de SILENCE FINI",
+    "Le mot RECEIVED",
+    "Son code CIAC"
    ],
-   "answer": "Prenez les mesures nécessaires",
-   "explanation": "Après avoir signalé que de la cargaison s'écoule et le danger d'incendie, Karin conclut par « Prenez les mesures nécessaires ».",
-   "reminder": "Karin conclut : « Prenez les mesures nécessaires ».",
+   "answer": "Le type d'assistance nécessaire (par exemple : « Prenez les mesures nécessaires »)",
+   "explanation": "Le message de détresse comprend, après la nature de la détresse, le type d'assistance nécessaire, puis d'autres informations utiles. Dans l'exemple, l'automoteur conclut par « Prenez les mesures nécessaires ».",
+   "reminder": "Après la nature de la détresse : le type d'assistance demandée.",
    "source": {
     "page": 42,
     "quote": "De la cargaison s'écoule Danger d'incendie Prenez les mesures nécessaires"
@@ -7567,15 +7566,15 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4123",
    "type": "qcm",
-   "question": "Quel mot la centrale de secteur d'Oberwesel utilise-t-elle pour accuser réception du MAYDAY de « Karin » ?",
+   "question": "Une centrale de secteur répond à l'appel MAYDAY d'un bateau. Quelle est la structure correcte de son accusé de réception ?",
    "choices": [
-    "MAYDAY RELAY",
-    "RECEIVED",
-    "ALL STATIONS",
-    "SILENCE FINI"
+    "MAYDAY, nom du bateau en détresse, THIS IS, nom de la centrale, RECEIVED, MAYDAY",
+    "MAYDAY RELAY (x3), ALL STATIONS (x3), THIS IS, nom de la centrale",
+    "PAN PAN, nom du bateau en détresse, THIS IS, nom de la centrale, ROGER",
+    "THIS IS, nom de la centrale, RECEIVED, SILENCE FINI"
    ],
-   "answer": "RECEIVED",
-   "explanation": "La réponse de la centrale suit l'ordre : MAYDAY, nom du bateau en détresse, THIS IS, nom de la centrale, RECEIVED, MAYDAY.",
+   "answer": "MAYDAY, nom du bateau en détresse, THIS IS, nom de la centrale, RECEIVED, MAYDAY",
+   "explanation": "L'accusé de réception suit l'ordre : MAYDAY, nom du bateau en détresse, THIS IS, nom de la station qui accuse réception, RECEIVED, MAYDAY (exemple : « MAYDAY, Automoteur ordinaire Karin, THIS IS Oberwesel Revierzentrale, RECEIVED, MAYDAY »).",
    "reminder": "Accusé de réception de détresse : MAYDAY, nom, THIS IS, station, RECEIVED, MAYDAY.",
    "source": {
     "page": 42,
@@ -7593,7 +7592,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4124",
    "type": "qcm",
-   "question": "Dans l'accusé de réception de la centrale d'Oberwesel, combien de fois le nom de « Karin » est-il prononcé ?",
+   "question": "Dans l'accusé de réception d'un appel de détresse, combien de fois le nom du bateau en détresse est-il prononcé ?",
    "choices": [
     "Trois fois",
     "Deux fois",
@@ -7601,7 +7600,7 @@ window.QUESTIONS_DATA = {
     "Une fois"
    ],
    "answer": "Une fois",
-   "explanation": "Dans sa réponse, la centrale prononce le nom « Automoteur ordinaire Karin » une seule fois, entre MAYDAY et THIS IS.",
+   "explanation": "Dans l'accusé de réception, le nom du bateau en détresse est prononcé une seule fois, entre MAYDAY et THIS IS (exemple : « MAYDAY, Automoteur ordinaire Karin, THIS IS Oberwesel Revierzentrale, RECEIVED, MAYDAY »).",
    "reminder": "Accusé de réception de détresse : le nom de la station en détresse est dit une fois.",
    "source": {
     "page": 42,
@@ -7614,7 +7613,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4125",
    "type": "qcm",
-   "question": "Par quelle formule la centrale d'Oberwesel commence-t-elle son message pour informer la navigation de la détresse de « Karin » ?",
+   "question": "Après avoir accusé réception d'un MAYDAY, une centrale de secteur veut informer toute la navigation de la situation de détresse. Par quelle formule commence son message ?",
    "choices": [
     "MAYDAY (x3), RECEIVED",
     "MAYDAY RELAY (x3), ALL STATIONS (x3)",
@@ -7635,15 +7634,15 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4126",
    "type": "qcm",
-   "question": "Dans le relais de détresse de la centrale d'Oberwesel, sur quel tronçon la navigation est-elle interrompue ?",
+   "question": "Une centrale de secteur relaie (MAYDAY RELAY) une collision survenue sur le Rhin au p.k. 424,30. Quelle instruction donne-t-elle à la navigation dans son message ?",
    "choices": [
-    "Du p.k. 423,00 au p.k. 424,30",
-    "Du p.k. 424,30 au p.k. 431,00",
-    "Du p.k. 423,00 au p.k. 431,00",
-    "Du p.k. 420,00 au p.k. 430,00"
+    "La navigation est interrompue jusqu'à nouvel ordre sur le tronçon concerné (du p.k. 423,00 au p.k. 431,00)",
+    "Chaque bateau doit accuser réception individuellement",
+    "Les bateaux doivent passer sur le canal 16",
+    "La navigation peut se poursuivre à vitesse réduite"
    ],
-   "answer": "Du p.k. 423,00 au p.k. 431,00",
-   "explanation": "La centrale annonce que la navigation est interrompue jusqu'à nouvel ordre du p.k. 423,00 au p.k. 431,00, la collision ayant eu lieu au p.k. 424,30.",
+   "answer": "La navigation est interrompue jusqu'à nouvel ordre sur le tronçon concerné (du p.k. 423,00 au p.k. 431,00)",
+   "explanation": "Dans son relais, la centrale annonce la collision près de Mannheim au p.k. 424,30, précise que l'automoteur-citerne perd de la cargaison (de l'essence s'écoule) et que la navigation est interrompue jusqu'à nouvel ordre du p.k. 423,00 au p.k. 431,00.",
    "reminder": "Relais Oberwesel : navigation interrompue p.k. 423,00 à 431,00.",
    "source": {
     "page": 43,
@@ -7661,19 +7660,19 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4127",
    "type": "qcm",
-   "question": "Selon le relais de la centrale d'Oberwesel, quel produit s'écoule de l'automoteur-citerne ?",
+   "question": "Une centrale de secteur relaie une détresse à toute la navigation. Après « MAYDAY RELAY » (x3) et « ALL STATIONS » (x3), quel élément suit dans son message ?",
    "choices": [
-    "De l'essence",
-    "De l'huile",
-    "Des produits chimiques",
-    "Du gazole"
+    "THIS IS, suivi du nom de la centrale de secteur (station relais)",
+    "Le nom du bateau en détresse, répété trois fois",
+    "RECEIVED",
+    "SILENCE FINI"
    ],
-   "answer": "De l'essence",
-   "explanation": "Le message relayé précise que l'automoteur-citerne perd de la cargaison et que de l'essence s'écoule.",
-   "reminder": "Oberwesel : l'automoteur-citerne perd de l'essence.",
+   "answer": "THIS IS, suivi du nom de la centrale de secteur (station relais)",
+   "explanation": "Après MAYDAY RELAY x3 et ALL STATIONS x3, la station relais s'identifie : THIS IS, puis son nom répété trois fois et son indicatif d'appel (exemple : « THIS IS, Oberwesel Revierzentrale, Oberwesel Revierzentrale, Oberwesel Revierzentrale, indicatif d'appel de la centrale de secteur Oberwesel »).",
+   "reminder": "Relais : MAYDAY RELAY x3, ALL STATIONS x3, THIS IS + station relais x3 + indicatif.",
    "source": {
-    "page": 43,
-    "quote": "L'automoteur-citerne perd de la cargaison De l'essence s'écoule"
+    "page": 42,
+    "quote": "MAYDAY RELAY, MAYDAY RELAY, MAYDAY RELAY ALL STATIONS, ALL STATIONS, ALL STATIONS THIS IS Oberwesel Revierzentrale, Oberwesel Revierzentrale, Oberwesel Revierzentrale"
    },
    "category": "detresse-urgence-securite",
    "difficulty": "difficile",
@@ -7682,7 +7681,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4128",
    "type": "qcm",
-   "question": "Par quelle formule commence le message de la centrale d'Oberwesel annonçant la fin de la situation de détresse ?",
+   "question": "Une centrale de secteur annonce à la navigation la fin d'une situation de détresse. Par quelle formule commence ce message ?",
    "choices": [
     "MAYDAY, puis ALL STATIONS (x3)",
     "PAN PAN, puis ALL STATIONS (x3)",
@@ -7694,7 +7693,7 @@ window.QUESTIONS_DATA = {
    "reminder": "Fin de détresse : MAYDAY + ALL STATIONS x3 ... SILENCE FINI.",
    "source": {
     "page": 43,
-    "quote": "A a fin de la situation de détresse, la centrale de secteur d'Oberwesel informe la navigation comme suit : MAYDAY ALL STATIONS, ALL STATIONS, ALL STATIONS THIS IS"
+    "quote": "A la fin de la situation de détresse, la centrale de secteur d'Oberwesel informe la navigation comme suit : MAYDAY ALL STATIONS, ALL STATIONS, ALL STATIONS THIS IS"
    },
    "category": "detresse-urgence-securite",
    "difficulty": "moyen",
@@ -7708,7 +7707,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4129",
    "type": "qcm",
-   "question": "Par quels mots se termine le message annonçant la fin d'une situation de détresse dans les exemples ?",
+   "question": "Par quels mots se termine le message annonçant la fin d'une situation de détresse ?",
    "choices": [
     "SILENCE FINI",
     "OVER",
@@ -7729,15 +7728,15 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4130",
    "type": "qcm",
-   "question": "Quels éléments figurent dans le message de fin de détresse de la centrale d'Oberwesel juste avant SILENCE FINI ?",
+   "question": "Dans le message annonçant la fin d'une situation de détresse, quels éléments figurent juste avant « SILENCE FINI » ?",
    "choices": [
-    "Le nom de l'automoteur-citerne et sa cargaison",
-    "L'heure (10 heures 15), le nom du bateau en détresse et son indicatif FM 1234",
+    "La nature de la détresse et la cargaison concernée",
+    "L'heure, le nom du bateau en détresse et son indicatif d'appel",
     "Le canal de dégagement et la visibilité",
-    "La position p.k. 424,30 et la nature de la collision"
+    "La position au point kilométrique et la nature de la détresse"
    ],
-   "answer": "L'heure (10 heures 15), le nom du bateau en détresse et son indicatif FM 1234",
-   "explanation": "Avant SILENCE FINI, la centrale donne l'heure (10 heures 15), le nom « Automoteur ordinaire Karin » et l'indicatif FM 1234.",
+   "answer": "L'heure, le nom du bateau en détresse et son indicatif d'appel",
+   "explanation": "Avant SILENCE FINI, le message de fin de détresse donne l'heure de la notification, le nom du bateau en détresse et son indicatif d'appel (exemple : 10 heures 15, Automoteur ordinaire Karin, indicatif d'appel FM 1234).",
    "reminder": "Fin de détresse : heure + bateau concerné + indicatif + SILENCE FINI.",
    "source": {
     "page": 43,
@@ -7750,7 +7749,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4131",
    "type": "qcm",
-   "question": "Sur quel canal l'automoteur-citerne « Corinna » appelle-t-il les autres bateaux pour signaler un homme à la mer ?",
+   "question": "Sur le Danube, un automoteur-citerne signale un homme à la mer en appelant directement les autres bateaux (appel de détresse bateau-bateau). Sur quel canal émet-il cet appel ?",
    "choices": [
     "Le canal 22 du réseau Informations nautiques",
     "Le canal 20",
@@ -7758,7 +7757,7 @@ window.QUESTIONS_DATA = {
     "Le canal 18 du réseau Informations nautiques"
    ],
    "answer": "Le canal 10 du réseau bateau-bateau",
-   "explanation": "Corinna appelle d'autres bateaux sur le canal 10 du réseau bateau-bateau pour signaler qu'un homme est tombé par-dessus bord.",
+   "explanation": "L'automoteur-citerne appelle les autres bateaux sur le canal 10 du réseau bateau-bateau pour signaler qu'un homme est tombé par-dessus bord. En navigation intérieure, le signal de détresse est en principe émis sur le canal 10.",
    "reminder": "Corinna (homme à la mer) : canal 10, bateau-bateau.",
    "source": {
     "page": 44,
@@ -7771,16 +7770,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4132",
    "type": "qcm",
-   "question": "Quelle est la nature de la détresse annoncée par « Corinna » ?",
+   "question": "Un membre d'équipage est tombé par-dessus bord. Quel type de communication le bateau doit-il émettre ?",
    "choices": [
-    "Homme à la mer",
-    "Danger d'incendie",
-    "Aide médicale sans danger de mort",
-    "Collision"
+    "Une communication de détresse (MAYDAY)",
+    "Une communication d'urgence (PAN PAN)",
+    "Un message de sécurité (SECURITE)",
+    "Une communication de routine"
    ],
-   "answer": "Homme à la mer",
-   "explanation": "Corinna annonce « Homme à la mer » après avoir donné sa position près du p.k. danubien 1501,35.",
-   "reminder": "Corinna : homme à la mer.",
+   "answer": "Une communication de détresse (MAYDAY)",
+   "explanation": "Un homme à la mer est une situation de danger imminent pour une personne, nécessitant une aide immédiate. L'exemple type est un appel MAYDAY (« MAYDAY, MAYDAY, MAYDAY, THIS IS, Automoteur-citerne Corinna..., Homme à la mer »).",
+   "reminder": "Homme à la mer = MAYDAY.",
    "source": {
     "page": 44,
     "quote": "Avalant près du p.k. danubien 1501,35 Homme à la mer"
@@ -7792,7 +7791,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4133",
    "type": "qcm",
-   "question": "Quelles instructions « Corinna » donne-t-il aux autres bateaux après avoir annoncé un homme à la mer ?",
+   "question": "Un automoteur-citerne (« Corinna ») lance un MAYDAY bateau-bateau pour un homme à la mer (voir schéma). Quelles instructions donne-t-il aux autres bateaux à la fin de son message ?",
    "choices": [
     "Interrompre la navigation et suivre les informations ultérieures",
     "Prendre les mesures nécessaires et rester à l'écoute",
@@ -7818,16 +7817,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4134",
    "type": "qcm",
-   "question": "Dans l'exemple « homme à la mer », qui informe la navigation à la fin de la situation de détresse ?",
+   "question": "Un bateau a lancé lui-même un appel de détresse bateau-bateau (homme à la mer), sans intervention d'une centrale. Une fois la situation réglée, qui informe la navigation de la fin de la situation de détresse ?",
    "choices": [
-    "L'automoteur-citerne Corinna lui-même",
-    "La centrale de secteur d'Oberwesel",
-    "L'écluse de Hasselt",
-    "Le poste de trafic de Dordrecht"
+    "Le bateau qui a lancé l'appel de détresse lui-même",
+    "La centrale de secteur la plus proche",
+    "L'écluse la plus proche",
+    "Le poste de trafic du secteur"
    ],
-   "answer": "L'automoteur-citerne Corinna lui-même",
-   "explanation": "Dans cet exemple, c'est l'automoteur-citerne Corinna qui informe la navigation de la fin de la situation de détresse.",
-   "reminder": "Exemple homme à la mer : c'est l'automoteur-citerne Corinna lui-même qui annonce la fin de la détresse (SILENCE FINI).",
+   "answer": "Le bateau qui a lancé l'appel de détresse lui-même",
+   "explanation": "Dans l'exemple type « homme à la mer », c'est l'automoteur-citerne Corinna, auteur de l'appel de détresse, qui informe lui-même la navigation de la fin de la situation de détresse (MAYDAY, ALL STATIONS x3, THIS IS, Corinna, OED4711, 10 heures 15, Corinna, OED4711, SILENCE FINI).",
+   "reminder": "Détresse bateau-bateau : le bateau en détresse annonce lui-même la fin (SILENCE FINI).",
    "source": {
     "page": 44,
     "quote": "À la fin de la situation de détresse, l'automoteur-citerne Corinna informe la navigation comme suit :"
@@ -7844,19 +7843,19 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4135",
    "type": "qcm",
-   "question": "Sur quel fleuve navigue « Corinna » d'après la position indiquée dans son message ?",
+   "question": "Un bateau en détresse indique sa position par « Avalant près du p.k. danubien 1501,35 ». Que signifie l'abréviation « p.k. » ?",
    "choices": [
-    "Le Danube",
-    "Le Main",
-    "Le Rhin",
-    "L'Oude Maas"
+    "Point kilométrique",
+    "Poste de contrôle",
+    "Position connue",
+    "Port de départ"
    ],
-   "answer": "Le Danube",
-   "explanation": "Corinna se situe « près du p.k. danubien 1501,35 », donc sur le Danube.",
-   "reminder": "Corinna : p.k. danubien 1501,35.",
+   "answer": "Point kilométrique",
+   "explanation": "Le message de détresse doit contenir « la position au point kilométrique » (p.k.) de la voie navigable ; dans l'exemple de Corinna, la position est donnée par « Avalant près du p.k. danubien 1501,35 », soit le kilomètre 1501,35 du Danube.",
+   "reminder": "p.k. = point kilométrique.",
    "source": {
-    "page": 44,
-    "quote": "Avalant près du p.k. danubien 1501,35"
+    "page": 23,
+    "quote": "la position au point kilométrique ;"
    },
    "category": "detresse-urgence-securite",
    "difficulty": "difficile",
@@ -7865,16 +7864,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4136",
    "type": "qcm",
-   "question": "Quel est l'indicatif d'appel de l'automoteur-citerne « Corinna » dans l'exemple ?",
+   "question": "Dans un appel de détresse émis par un bateau en navigation intérieure, quel élément d'identification suit le nom du bateau ?",
    "choices": [
-    "OED4711",
-    "OED1147",
-    "OS2563",
-    "FM 1234"
+    "Son indicatif d'appel (par exemple OED4711)",
+    "Son code ATIS",
+    "Le nom de son capitaine",
+    "Le nom de son port d'attache"
    ],
-   "answer": "OED4711",
-   "explanation": "Corinna utilise l'indicatif OED4711 ; OED1147 est celui de Mara et FM 1234 celui de Karin.",
-   "reminder": "Corinna = OED4711 ; Mara = OED1147 ; Karin = FM 1234.",
+   "answer": "Son indicatif d'appel (par exemple OED4711)",
+   "explanation": "Après le nom du bateau, répété trois fois dans l'appel, le bateau donne son indicatif d'appel ou toute autre identification. Dans l'exemple, l'automoteur-citerne Corinna donne l'indicatif OED4711.",
+   "reminder": "Appel de détresse : nom x3, puis indicatif d'appel.",
    "source": {
     "page": 44,
     "quote": "OED4711 MAYDAY Automoteur-citerne Corinna OED4711"
@@ -7886,7 +7885,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4137",
    "type": "qcm",
-   "question": "Quel signal « Mara » utilise-t-il pour demander une aide médicale sans danger de mort ?",
+   "question": "Un bateau a besoin d'une aide médicale à bord, sans danger de mort. Quel signal utilise-t-il pour appeler la centrale de secteur ?",
    "choices": [
     "MAYDAY RELAY (x3)",
     "SECURITE (x3)",
@@ -7907,16 +7906,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4139",
    "type": "qcm",
-   "question": "Sur quel canal « Mara » appelle-t-il la centrale de secteur de Duisbourg ?",
+   "question": "Un bateau appelle la centrale de secteur de Duisbourg (Duisburg Revierzentrale) pour une urgence médicale sans danger de mort. Sur quel canal cet appel PAN PAN adressé à une centrale de secteur est-il émis ?",
    "choices": [
-    "Le canal 19 (canal imposé)",
-    "Le canal 22 du réseau Informations nautiques",
-    "Le canal 10 du réseau bateau-bateau",
-    "Le canal 18 du réseau Informations nautiques"
+    "Sur le canal 22, canal du réseau Informations nautiques de cette centrale de secteur",
+    "Sur le canal 16, fréquence internationale de détresse",
+    "Sur le canal 70, par appel sélectif numérique (ASN)",
+    "Sur le canal 77, canal des communications sociales"
    ],
-   "answer": "Le canal 22 du réseau Informations nautiques",
-   "explanation": "Mara appelle la centrale de Duisbourg sur le canal 22 du réseau Informations nautiques.",
-   "reminder": "Mara (urgence) : canal 22, Duisbourg.",
+   "answer": "Sur le canal 22, canal du réseau Informations nautiques de cette centrale de secteur",
+   "explanation": "L'automoteur appelle la centrale de secteur de Duisbourg sur le canal 22 du réseau Informations nautiques, réseau qui relie les bateaux aux autorités chargées de la voie navigable.",
+   "reminder": "Urgence adressée à une centrale de secteur : canal Informations nautiques de la centrale (ici le 22).",
    "source": {
     "page": 45,
     "quote": "sur le canal 22 du réseau Informations nautiques"
@@ -7928,15 +7927,15 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4140",
    "type": "qcm",
-   "question": "Dans l'appel d'urgence de « Mara », qu'est-ce qui suit directement « PAN PAN, PAN PAN, PAN PAN » ?",
+   "question": "Dans un appel d'urgence adressé à une station précise (par exemple une centrale de secteur), qu'est-ce qui suit directement « PAN PAN, PAN PAN, PAN PAN » ?",
    "choices": [
     "THIS IS",
-    "ALL STATIONS trois fois",
-    "Le nom de Mara trois fois",
-    "Le nom de la station appelée, Duisburg Revierzentrale, trois fois"
+    "ALL STATIONS, trois fois",
+    "Le nom du bateau appelant, trois fois",
+    "Le nom de la station appelée, trois fois"
    ],
-   "answer": "Le nom de la station appelée, Duisburg Revierzentrale, trois fois",
-   "explanation": "Dans l'appel d'urgence, PAN PAN x3 est suivi du nom de la station appelée (Duisburg Revierzentrale x3), puis THIS IS et le nom de Mara. Dans l'appel MAYDAY de Karin, THIS IS suivait directement.",
+   "answer": "Le nom de la station appelée, trois fois",
+   "explanation": "Dans l'appel d'urgence, PAN PAN x3 est suivi du nom de la station appelée répété trois fois (exemple : Duisburg Revierzentrale x3), puis de THIS IS et du nom du bateau appelant. Dans l'appel de détresse MAYDAY, THIS IS suit directement le signal.",
    "reminder": "PAN PAN x3 → station appelée x3 → THIS IS → mon nom x3.",
    "source": {
     "page": 45,
@@ -7954,16 +7953,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4141",
    "type": "qcm",
-   "question": "Quel problème « Mara » signale-t-il dans son message d'urgence ?",
+   "question": "Lequel de ces cas justifie un appel d'urgence PAN PAN, et non un appel de détresse MAYDAY ?",
    "choices": [
-    "Un matelot blessé, probablement une fracture du bras",
-    "Une panne de moteur",
+    "Un matelot blessé, probablement une fracture du bras, sans danger de mort",
     "Un homme tombé par-dessus bord",
-    "Une fuite de cargaison"
+    "Une collision avec écoulement de cargaison et danger d'incendie",
+    "Un épais brouillard sur la voie navigable"
    ],
-   "answer": "Un matelot blessé, probablement une fracture du bras",
-   "explanation": "Mara demande de l'aide médicale pour un matelot blessé, probablement atteint d'une fracture du bras.",
-   "reminder": "Mara : matelot blessé, fracture du bras probable.",
+   "answer": "Un matelot blessé, probablement une fracture du bras, sans danger de mort",
+   "explanation": "Une demande d'aide médicale sans danger de mort (matelot blessé, probablement une fracture du bras) relève de l'urgence (PAN PAN). L'homme à la mer et la collision avec danger d'incendie sont des détresses (MAYDAY), et le brouillard fait l'objet d'un message de sécurité (SECURITE).",
+   "reminder": "Blessé sans danger de mort = PAN PAN.",
    "source": {
     "page": 46,
     "quote": "Demande de l'aide médicale Matelot blessé, probablement fracture du bras"
@@ -7975,7 +7974,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4142",
    "type": "qcm",
-   "question": "Par quelle instruction la centrale de Duisbourg termine-t-elle sa réponse à « Mara » ?",
+   "question": "Une centrale de secteur (Duisbourg) répond à un appel PAN PAN pour un matelot blessé : elle annonce qu'elle appelle une ambulance et qu'elle indiquera le lieu où celle-ci attendra (voir schéma). Par quelle instruction termine-t-elle sa réponse ?",
    "choices": [
     "Interrompre la navigation",
     "Prenez les mesures nécessaires",
@@ -8001,7 +8000,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4143",
    "type": "qcm",
-   "question": "Par quel mot commence la réponse de la centrale de Duisbourg à l'appel d'urgence de « Mara » ?",
+   "question": "Par quel mot une centrale de secteur commence-t-elle sa réponse à un appel d'urgence PAN PAN ?",
    "choices": [
     "SECURITE",
     "RECEIVED",
@@ -8009,7 +8008,7 @@ window.QUESTIONS_DATA = {
     "PAN PAN"
    ],
    "answer": "PAN PAN",
-   "explanation": "La réponse de la centrale commence par PAN PAN, puis le nom de Mara trois fois, son indicatif OED1147, THIS IS et le nom de la centrale.",
+   "explanation": "La réponse de la centrale commence par PAN PAN, puis le nom du bateau appelant trois fois, son indicatif d'appel, THIS IS et le nom de la centrale (exemple : « PAN PAN, Automoteur ordinaire Mara x3, OED1147, THIS IS, Duisburg Revierzentrale »).",
    "reminder": "Réponse à une urgence : on reprend PAN PAN.",
    "source": {
     "page": 46,
@@ -8022,16 +8021,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4144",
    "type": "qcm",
-   "question": "Sur quel canal le poste de trafic de Dordrecht diffuse-t-il son message de sécurité ?",
+   "question": "Aux Pays-Bas, un poste de trafic (verkeerspost) diffuse un message de sécurité (épais brouillard) à la navigation de son secteur. Sur quel canal ce message est-il diffusé ?",
    "choices": [
-    "Le canal imposé 19 du réseau Informations nautiques",
-    "Le canal 20",
-    "Le canal 22 du réseau Informations nautiques",
-    "Le canal 10 du réseau bateau-bateau"
+    "Sur le canal imposé du secteur (canal 19), utilisé par les postes de trafic pour la sécurité de la navigation",
+    "Sur le canal 16, fréquence internationale de détresse",
+    "Sur le canal 70, par appel sélectif numérique (ASN)",
+    "Sur le canal 77, canal des communications sociales"
    ],
-   "answer": "Le canal imposé 19 du réseau Informations nautiques",
-   "explanation": "Le poste de trafic de Dordrecht avertit la navigation sur le canal imposé 19 du réseau Informations nautiques.",
-   "reminder": "Dordrecht (sécurité) : canal imposé 19.",
+   "answer": "Sur le canal imposé du secteur (canal 19), utilisé par les postes de trafic pour la sécurité de la navigation",
+   "explanation": "Le poste de trafic de Dordrecht avertit la navigation sur le canal imposé 19 du réseau Informations nautiques. Le canal imposé est le canal utilisé par les postes de trafic et les bateaux pour la communication d'informations concernant la protection des personnes et la sécurité de la navigation.",
+   "reminder": "Poste de trafic : message de sécurité sur le canal imposé du secteur.",
    "source": {
     "page": 46,
     "quote": "Le poste de trafic de Dordrecht (Dordrecht verkeerspost) avertit la navigation sur le canal imposé 19 du réseau Informations nautiques"
@@ -8043,7 +8042,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4145",
    "type": "qcm",
-   "question": "Par quel signal commence le message de sécurité du poste de trafic de Dordrecht ?",
+   "question": "Un poste de trafic (Dordrecht) diffuse un message de sécurité pour annoncer un épais brouillard (voir schéma). Par quel signal commence ce message ?",
    "choices": [
     "ALL STATIONS (x3) seul",
     "PAN PAN (x3)",
@@ -8069,16 +8068,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4146",
    "type": "qcm",
-   "question": "Quelle visibilité le poste de trafic de Dordrecht annonce-t-il dans son message de sécurité ?",
+   "question": "Un poste de trafic constate un épais brouillard dans son secteur, avec une visibilité d'environ 50 m. Quel type de message diffuse-t-il à la navigation et par quel signal commence-t-il ?",
    "choices": [
-    "1 km environ",
-    "50 m environ",
-    "5 m environ",
-    "500 m environ"
+    "Un message de sécurité, commençant par SECURITE répété trois fois",
+    "Un message d'urgence, commençant par PAN PAN répété trois fois",
+    "Un relais de détresse, commençant par MAYDAY RELAY répété trois fois",
+    "Un message de routine, commençant directement par ALL STATIONS"
    ],
-   "answer": "50 m environ",
-   "explanation": "Le message signale un épais brouillard dans le secteur de Dordrecht sur l'Oude Maas avec une visibilité d'environ 50 m.",
-   "reminder": "Brouillard à Dordrecht : visibilité 50 m.",
+   "answer": "Un message de sécurité, commençant par SECURITE répété trois fois",
+   "explanation": "Un avertissement nautique ou météorologique important, comme un épais brouillard, fait l'objet d'un message de sécurité : SECURITE x3, ALL STATIONS x3, THIS IS, nom du poste de trafic, puis l'avertissement (« Épais brouillard dans le secteur de Dordrecht sur l'Oude Maas, visibilité de 50 m environ »).",
+   "reminder": "Brouillard = message de sécurité (SECURITE x3).",
    "source": {
     "page": 47,
     "quote": "Épais brouillard dans le secteur de Dordrecht sur l'Oude Maas Visibilité de 50 m environ"
@@ -8090,15 +8089,15 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4147",
    "type": "qcm",
-   "question": "À qui le poste de trafic de Dordrecht adresse-t-il son message de sécurité ?",
+   "question": "À qui un poste de trafic adresse-t-il son message de sécurité annonçant un épais brouillard dans son secteur ?",
    "choices": [
-    "Uniquement à l'automoteur Karin",
+    "Uniquement au dernier bateau qui l'a appelé",
     "À toutes les stations (ALL STATIONS)",
-    "Uniquement à l'écluse de Birsfelden",
-    "Uniquement à la centrale de Duisbourg"
+    "Uniquement à l'écluse la plus proche",
+    "Uniquement à la centrale de secteur voisine"
    ],
    "answer": "À toutes les stations (ALL STATIONS)",
-   "explanation": "Après SECURITE x3, le message est adressé à ALL STATIONS trois fois, c'est-à-dire à toutes les stations.",
+   "explanation": "Après SECURITE x3, le message de sécurité est adressé à ALL STATIONS, répété trois fois, c'est-à-dire à toutes les stations.",
    "reminder": "Message de sécurité général : adressé à ALL STATIONS.",
    "source": {
     "page": 47,
@@ -8111,16 +8110,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4148",
    "type": "qcm",
-   "question": "Quel danger fait l'objet du message de sécurité de Dordrecht ?",
+   "question": "Lequel de ces événements fait l'objet d'un message de sécurité (SECURITE), et non d'une communication de détresse ou d'urgence ?",
    "choices": [
-    "Un épais brouillard sur l'Oude Maas",
-    "Une collision au p.k. 424,30",
-    "Une manifestation sportive sur le Canal Albert",
+    "Un épais brouillard sur une voie navigable",
+    "Une collision avec écoulement de cargaison et danger d'incendie",
+    "Un matelot blessé nécessitant une aide médicale",
     "Un homme tombé par-dessus bord"
    ],
-   "answer": "Un épais brouillard sur l'Oude Maas",
-   "explanation": "Le message de sécurité du poste de trafic de Dordrecht porte sur un épais brouillard dans le secteur de Dordrecht, sur l'Oude Maas.",
-   "reminder": "Dordrecht : brouillard sur l'Oude Maas (SECURITE).",
+   "answer": "Un épais brouillard sur une voie navigable",
+   "explanation": "Un épais brouillard est un avertissement nautique ou météorologique important : il fait l'objet d'un message de sécurité (SECURITE), comme dans l'exemple du poste de trafic de Dordrecht. La collision avec danger d'incendie et l'homme à la mer relèvent de la détresse (MAYDAY), le blessé de l'urgence (PAN PAN).",
+   "reminder": "Brouillard : SECURITE ; blessé : PAN PAN ; homme à la mer, incendie : MAYDAY.",
    "source": {
     "page": 47,
     "quote": "Épais brouillard dans le secteur de Dordrecht sur l'Oude Maas"
@@ -8132,28 +8131,28 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4149",
    "type": "qcm",
-   "question": "Dans l'exemple de conversation de routine, sur quel canal « Sylvia » contacte-t-il l'écluse de Birsfelden ?",
+   "question": "Un automoteur-citerne veut demander à l'écluse de Birsfelden si l'entrée dans le garage amont est libre. Sur quel canal cet échange de routine avec une écluse a-t-il lieu ?",
    "choices": [
-    "Le canal 22",
-    "Le canal 18",
-    "Le canal 20",
-    "Le canal 10"
+    "Sur le canal 22, canal attribué aux écluses",
+    "Sur le canal 16, fréquence internationale de détresse",
+    "Sur le canal 70, canal ASN",
+    "Sur le canal 77, canal des communications sociales"
    ],
-   "answer": "Le canal 22",
-   "explanation": "Sylvia se renseigne sur le canal 22 auprès de l'écluse de Birsfelden pour savoir si l'entrée dans le garage amont est libre.",
-   "reminder": "Sylvia ↔ écluse de Birsfelden : canal 22.",
+   "answer": "Sur le canal 22, canal attribué aux écluses",
+   "explanation": "L'automoteur-citerne se renseigne sur le canal 22 auprès de l'écluse de Birsfelden. En navigation intérieure, les canaux 18, 20 et 22 sont prévus pour les écluses.",
+   "reminder": "Écluse : on l'appelle sur son canal (18, 20 ou 22).",
    "source": {
     "page": 47,
     "quote": "L'automoteur-citerne « Sylvia » se renseigne sur le canal 22 auprès de l'écluse de Birsfelden (Birsfelden Schleuse) pour savoir si l'entrée dans le garage amont de l'écluse est libre :"
    },
-   "category": "procedures-generales",
+   "category": "canaux-vhf",
    "difficulty": "moyen",
    "kind": "memoire"
   },
   {
    "id": "Q4150",
    "type": "qcm",
-   "question": "Dans l'exemple de conversation de routine de « Sylvia », combien de fois au plus le nom de l'écluse appelée est-il prononcé ?",
+   "question": "Dans un appel de routine en navigation intérieure (par exemple un bateau appelant une écluse), combien de fois au plus le nom de la station appelée est-il prononcé ?",
    "choices": [
     "Cinq fois au plus",
     "Une fois exactement",
@@ -8179,7 +8178,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4151",
    "type": "qcm",
-   "question": "Dans les exemples de conversation de routine en français, quel mot peut remplacer « THIS IS » ?",
+   "question": "Dans une communication de routine menée en français, quel mot peut remplacer « THIS IS » pour annoncer son identification ?",
    "choices": [
     "PARLEZ",
     "VENEZ",
@@ -8200,16 +8199,16 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4152",
    "type": "qcm",
-   "question": "Quelle information « Sylvia » donne-t-il sur sa situation avant de poser sa question à l'écluse ?",
+   "question": "Un automoteur-citerne appelle une écluse pour savoir si l'entrée dans le garage est libre. Quelles informations donne-t-il sur sa situation avant de poser sa question ?",
    "choices": [
-    "Vide, montant près de Mannheim",
-    "Avalant près du p.k. danubien 1501,35",
-    "Montant à 500 m à l'aval de l'embouchure du Main",
-    "Chargé, avalant près de Grenzach"
+    "Son état de chargement, son sens de navigation et sa position (par exemple : chargé, avalant près de Grenzach)",
+    "Son numéro MMSI et son code ATIS",
+    "Son port d'attache et son heure d'arrivée prévue",
+    "Le nom de son capitaine et le nombre de personnes à bord"
    ],
-   "answer": "Chargé, avalant près de Grenzach",
-   "explanation": "Sylvia indique « Chargé, avalant près de Grenzach » avant de demander si l'entrée dans le garage de l'écluse est libre.",
-   "reminder": "Sylvia : chargé, avalant près de Grenzach.",
+   "answer": "Son état de chargement, son sens de navigation et sa position (par exemple : chargé, avalant près de Grenzach)",
+   "explanation": "Après s'être identifié, le bateau indique sa situation, « Chargé, avalant près de Grenzach », puis pose sa question : « L'entrée dans le garage de l'écluse est-elle libre ? ».",
+   "reminder": "Appel de routine : identification, situation (chargement, sens, position), puis objet.",
    "source": {
     "page": 47,
     "quote": "Automoteur-citerne Sylvia (trois fois au plus) Chargé, avalant près de Grenzach L'entrée dans le garage de l'écluse est-elle libre ?"
@@ -8221,7 +8220,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4153",
    "type": "qcm",
-   "question": "Dans l'accusé de réception de « Sylvia » à l'écluse de Birsfelden, que fait le bateau après « J'ai compris » ?",
+   "question": "Une écluse répond à un bateau que l'entrée est libre. Dans son accusé de réception, que fait le bateau après « J'ai compris » ?",
    "choices": [
     "Il demande à l'écluse de répéter",
     "Il répète l'information reçue : « L'entrée est libre »",
@@ -8229,7 +8228,7 @@ window.QUESTIONS_DATA = {
     "Il termine par SILENCE FINI"
    ],
    "answer": "Il répète l'information reçue : « L'entrée est libre »",
-   "explanation": "L'accusé de réception de Sylvia se compose de : Écluse de Birsfelden, THIS IS / ICI, Automoteur-citerne Sylvia, J'ai compris, L'entrée est libre.",
+   "explanation": "L'accusé de réception du bateau se compose de : nom de l'écluse, THIS IS ou ICI, nom du bateau, « J'ai compris », puis la répétition de l'information reçue : « L'entrée est libre ».",
    "reminder": "Accusé de réception : « J'ai compris » + répéter l'info reçue.",
    "source": {
     "page": 48,
@@ -8242,15 +8241,15 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4154",
    "type": "qcm",
-   "question": "Dans la réponse de l'écluse de Birsfelden à « Sylvia », quel nom est prononcé en premier ?",
+   "question": "Une écluse répond à l'appel d'un bateau. Quel nom prononce-t-elle en premier dans sa réponse ?",
    "choices": [
-    "Automoteur-citerne Sylvia (la station appelante)",
-    "Écluse de Birsfelden",
-    "THIS IS",
-    "ALL STATIONS"
+    "Le nom du bateau appelant (la station à qui elle répond)",
+    "Son propre nom (le nom de l'écluse)",
+    "Les mots THIS IS",
+    "Les mots ALL STATIONS"
    ],
-   "answer": "Automoteur-citerne Sylvia (la station appelante)",
-   "explanation": "L'écluse commence par le nom de la station à qui elle répond (Sylvia, trois fois au plus), puis THIS IS / ICI, puis son propre nom.",
+   "answer": "Le nom du bateau appelant (la station à qui elle répond)",
+   "explanation": "L'écluse commence par le nom de la station à qui elle répond (Automoteur-citerne Sylvia, trois fois au plus), puis THIS IS ou ICI, puis son propre nom (Écluse de Birsfelden, trois fois au plus).",
    "reminder": "Réponse : nom de l'autre d'abord, puis THIS IS, puis son nom.",
    "source": {
     "page": 48,
@@ -8263,28 +8262,28 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4155",
    "type": "qcm",
-   "question": "Sur quel canal l'écluse de Hasselt adresse-t-elle son message à toutes les stations de bateau ?",
+   "question": "L'écluse de Hasselt (Canal Albert) diffuse un message à toutes les stations de bateau pour annoncer une interruption de la navigation. Sur quel canal ce message de l'écluse est-il diffusé ?",
    "choices": [
-    "Le canal 10",
-    "Le canal 19",
-    "Le canal 22",
-    "Le canal 20"
+    "Sur le canal 20, canal attribué aux écluses",
+    "Sur le canal 16, fréquence internationale de détresse",
+    "Sur le canal 70, canal ASN",
+    "Sur le canal 77, canal des communications sociales"
    ],
-   "answer": "Le canal 20",
-   "explanation": "L'exemple indique que l'écluse de Hasselt adresse un message sur le canal 20.",
-   "reminder": "Écluse de Hasselt : canal 20.",
+   "answer": "Sur le canal 20, canal attribué aux écluses",
+   "explanation": "L'écluse de Hasselt adresse son message sur le canal 20. En navigation intérieure, les canaux 18, 20 et 22 sont prévus pour les écluses.",
+   "reminder": "Écluse de Hasselt : canal 20 (canal d'écluse).",
    "source": {
     "page": 48,
     "quote": "L'écluse de Hasselt (Hasselt sluis) adresse un message sur le canal 20 :"
    },
-   "category": "procedures-generales",
+   "category": "canaux-vhf",
    "difficulty": "moyen",
    "kind": "memoire"
   },
   {
    "id": "Q4156",
    "type": "qcm",
-   "question": "Comment l'écluse de Hasselt commence-t-elle son message général ?",
+   "question": "Une écluse diffuse un message de routine destiné à tous les bateaux (par exemple pour annoncer une interruption de la navigation). Par quelle formule commence-t-elle son message ?",
    "choices": [
     "« PAN PAN », trois fois",
     "Par le nom de chaque bateau présent",
@@ -8292,7 +8291,7 @@ window.QUESTIONS_DATA = {
     "« ALL STATIONS » ou « à toutes les stations de bateau », trois fois au plus"
    ],
    "answer": "« ALL STATIONS » ou « à toutes les stations de bateau », trois fois au plus",
-   "explanation": "Le message de l'écluse de Hasselt commence par « ALL STATIONS » ou « à toutes les stations de bateau », trois fois au plus.",
+   "explanation": "Le message général de l'écluse commence par « ALL STATIONS » ou « à toutes les stations de bateau », trois fois au plus, puis THIS IS ou ICI et le nom de l'écluse.",
    "reminder": "Message général de routine : ALL STATIONS (trois fois au plus).",
    "source": {
     "page": 48,
@@ -8305,54 +8304,49 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4157",
    "type": "qcm",
-   "question": "Selon le message de l'écluse de Hasselt, pendant quelle période la navigation sera-t-elle interrompue sur le Canal Albert ?",
+   "question": "Une écluse annonce à toutes les stations de bateau qu'une manifestation sportive aura lieu à l'aval de l'écluse et que la navigation sera interrompue de 18.00 à 20.00 heures. De quel type de communication s'agit-il ?",
    "choices": [
-    "De 18.30 à 20.00 heures",
-    "De 20.00 à 22.00 heures",
-    "De 18.00 à 20.00 heures",
-    "De 18.00 à 18.30 heures"
+    "Une communication de routine (message général à toutes les stations)",
+    "Un message de sécurité (SECURITE)",
+    "Une communication d'urgence (PAN PAN)",
+    "Un relais de détresse (MAYDAY RELAY)"
    ],
-   "answer": "De 18.00 à 20.00 heures",
-   "explanation": "La manifestation sportive commence à 18.30, mais la navigation est interrompue de 18.00 à 20.00 heures.",
-   "reminder": "Canal Albert : manifestation dès 18.30, navigation interrompue 18.00-20.00.",
+   "answer": "Une communication de routine (message général à toutes les stations)",
+   "explanation": "Ce message de l'écluse de Hasselt figure parmi les exemples de conversation de routine : il commence directement par « ALL STATIONS » ou « à toutes les stations de bateau » (trois fois au plus), sans signal de priorité.",
+   "reminder": "Annonce d'une écluse à tous les bateaux : routine, ALL STATIONS.",
    "source": {
     "page": 49,
     "quote": "Sur le Canal Albert aura lieu à partir de 18.30 heures une manifestation sportive à l'aval de l'écluse. La navigation sera interrompue de 18.00 à 20.00 heures."
    },
    "category": "procedures-generales",
    "difficulty": "moyen",
-   "illustration": {
-    "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 170\" width=\"560\" height=\"170\"><rect x=\"0\" y=\"0\" width=\"560\" height=\"170\" fill=\"#f8fafc\"/><text x=\"280.0\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#1e3a8a\">Canal Albert : message de l'écluse de Hasselt</text><text x=\"20\" y=\"65\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"12\" fill=\"#0f172a\">Interruption navigation (début)</text><rect x=\"230\" y=\"50\" width=\"80\" height=\"22\" rx=\"3\" fill=\"#93c5fd\" stroke=\"#1e3a8a\"/><text x=\"315\" y=\"66\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"12\" fill=\"#0f172a\">18.00</text><text x=\"20\" y=\"105\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"12\" fill=\"#0f172a\">Manifestation sportive (début)</text><rect x=\"230\" y=\"90\" width=\"120\" height=\"22\" rx=\"3\" fill=\"#93c5fd\" stroke=\"#1e3a8a\"/><text x=\"355\" y=\"106\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"12\" fill=\"#0f172a\">18.30</text><text x=\"20\" y=\"145\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"12\" fill=\"#0f172a\">Fin interruption</text><rect x=\"230\" y=\"130\" width=\"260\" height=\"22\" rx=\"3\" fill=\"#93c5fd\" stroke=\"#1e3a8a\"/><text x=\"495\" y=\"146\" font-family=\"Arial, Helvetica, sans-serif\" font-size=\"12\" fill=\"#0f172a\">20.00</text></svg>",
-    "placement": "explanation",
-    "alt": "Repères horaires : la navigation est interrompue de 18.00 à 20.00, la manifestation commençant à 18.30."
-   },
    "kind": "memoire"
   },
   {
    "id": "Q4158",
    "type": "qcm",
-   "question": "Sur quel canal l'automoteur-citerne « Britta » demande-t-il s'il y a de la navigation sur le Rhin ?",
+   "question": "Un automoteur-citerne qui sort du Main veut demander aux autres bateaux s'il y a de la navigation sur le Rhin (communication bateau-bateau). Sur quel canal émet-il cet appel ?",
    "choices": [
-    "Le canal 18",
-    "Le canal 22",
-    "Le canal 10",
-    "Le canal 20"
+    "Sur le canal 10, premier canal du réseau bateau-bateau",
+    "Sur le canal 16, fréquence internationale de détresse",
+    "Sur le canal 22, canal attribué aux écluses",
+    "Sur le canal 70, canal ASN"
    ],
-   "answer": "Le canal 10",
-   "explanation": "Britta, qui sort du Main, demande sur le canal 10 s'il y a de la navigation sur le Rhin.",
-   "reminder": "Britta : canal 10 (bateau-bateau).",
+   "answer": "Sur le canal 10, premier canal du réseau bateau-bateau",
+   "explanation": "L'automoteur-citerne demande sur le canal 10, premier canal (canal d'appel) du réseau bateau-bateau, s'il y a de la navigation sur le Rhin.",
+   "reminder": "Bateau-bateau : canal 10.",
    "source": {
     "page": 49,
     "quote": "L'automoteur-citerne « Britta » sort du Main et demande comme suit sur le canal 10 s'il y a de la navigation sur le Rhin :"
    },
-   "category": "procedures-generales",
+   "category": "canaux-vhf",
    "difficulty": "moyen",
    "kind": "memoire"
   },
   {
    "id": "Q4159",
    "type": "qcm",
-   "question": "Comment « Britta » adresse-t-il son appel ?",
+   "question": "Un bateau veut interroger tous les bateaux présents dans un secteur donné (par exemple l'embouchure du Main) sans connaître leurs noms. Comment adresse-t-il son appel ?",
    "choices": [
     "« ALL STATIONS dans le secteur de l'embouchure du Main », trois fois au plus",
     "« Écluse de Hasselt », trois fois au plus",
@@ -8360,7 +8354,7 @@ window.QUESTIONS_DATA = {
     "« SECURITE, SECURITE, SECURITE »"
    ],
    "answer": "« ALL STATIONS dans le secteur de l'embouchure du Main », trois fois au plus",
-   "explanation": "Britta adresse son appel à toutes les stations dans le secteur de l'embouchure du Main, trois fois au plus.",
+   "explanation": "L'appel est adressé à « ALL STATIONS dans le secteur de l'embouchure du Main » ou « À toutes les stations de bateau dans le secteur de l'embouchure du Main », trois fois au plus.",
    "reminder": "Britta appelle ALL STATIONS dans le secteur de l'embouchure du Main.",
    "source": {
     "page": 49,
@@ -8373,7 +8367,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4160",
    "type": "qcm",
-   "question": "Quelle question « Britta » pose-t-il aux autres bateaux ?",
+   "question": "Un automoteur-citerne avalant sur le Main, à environ 1 km de l'embouchure, veut monter le Rhin. Quelle question pose-t-il aux autres bateaux sur le canal bateau-bateau pour préparer sa manœuvre ?",
    "choices": [
     "L'entrée dans le garage de l'écluse est-elle libre ?",
     "Y a-t-il des montants ou des avalants dans le voisinage ?",
@@ -8394,7 +8388,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4161",
    "type": "qcm",
-   "question": "Que répond l'automoteur ordinaire « Tanja » à « Britta » ?",
+   "question": "Un bateau demande sur le canal bateau-bateau s'il y a des montants ou des avalants près de l'embouchure du Main. Quelle réponse d'un autre bateau est appropriée à cette question ?",
    "choices": [
     "Montant à 500 m à l'aval de l'embouchure du Main, pas d'autre navigation",
     "L'entrée est libre",
@@ -8420,7 +8414,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4162",
    "type": "qcm",
-   "question": "Par quelle formule l'automoteur-citerne « Britta » termine-t-il son accusé de réception à « Tanja » ?",
+   "question": "Après avoir reçu l'information demandée lors d'un échange de routine bateau-bateau, par quelle formule le bateau termine-t-il son accusé de réception ?",
    "choices": [
     "« J'ai compris, merci » puis « Bonne route »",
     "« SILENCE FINI »",
@@ -8441,7 +8435,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4164",
    "type": "qcm",
-   "question": "Selon le schéma « Guidance on distress alerts » de l'annexe, quelle est la première action pour déclencher une alerte de détresse ASN ?",
+   "question": "Sur une VHF équipée de l'ASN, quelle est la première action à effectuer pour déclencher une alerte de détresse ASN (DSC) ?",
    "choices": [
     "Annoncer MAYDAY à la voix",
     "Soulever le couvercle (LIFT COVER)",
@@ -8467,7 +8461,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4165",
    "type": "qcm",
-   "question": "Combien de temps faut-il maintenir le bouton rouge DISTRESS enfoncé selon le schéma de l'annexe ?",
+   "question": "Pour déclencher une alerte de détresse ASN, combien de temps faut-il maintenir enfoncé le bouton rouge DISTRESS de la VHF ?",
    "choices": [
     "Plus de 10 secondes",
     "Une seconde",
@@ -8488,7 +8482,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4166",
    "type": "qcm",
-   "question": "Après l'alerte ASN, avec quoi le schéma indique-t-il de faire l'appel vocal ?",
+   "question": "Après l'envoi d'une alerte de détresse ASN, avec quoi faut-il effectuer l'appel vocal MAYDAY ?",
    "choices": [
     "La balise EPIRB",
     "L'AIS",
@@ -8509,7 +8503,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4167",
    "type": "qcm",
-   "question": "Dans le tableau « Distress and communication frequencies » de l'annexe, quel canal VHF est indiqué pour l'ASN (DSC) ?",
+   "question": "Quel canal VHF est utilisé pour l'alerte de détresse par appel sélectif numérique (ASN / DSC) ?",
    "choices": [
     "Canal 70",
     "Canal 10",
@@ -8535,7 +8529,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4169",
    "type": "qcm",
-   "question": "Selon le schéma, quand faut-il mentionner le MMSI dans le message vocal de détresse ?",
+   "question": "Dans le message vocal MAYDAY qui suit une alerte de détresse, quand faut-il mentionner le numéro MMSI ?",
    "choices": [
     "Uniquement si la position est inconnue",
     "Toujours, dans tous les cas",
@@ -8556,7 +8550,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4170",
    "type": "qcm",
-   "question": "Selon le schéma de l'annexe, comment donner la position si la latitude et la longitude ne sont pas connues ?",
+   "question": "Dans un message vocal de détresse, comment donner sa position si la latitude et la longitude ne sont pas connues ou si le temps manque ?",
    "choices": [
     "Il ne faut pas donner de position",
     "Par le numéro MMSI",
@@ -8577,7 +8571,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4171",
    "type": "qcm",
-   "question": "Selon le schéma, quels éléments suivent la position dans le message vocal de détresse ?",
+   "question": "Dans un message vocal de détresse en mer, quels éléments suivent la position ?",
    "choices": [
     "Le CIAC et le numéro de certificat",
     "L'heure, le nom de la station côtière et SILENCE FINI",
@@ -8603,7 +8597,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4172",
    "type": "qcm",
-   "question": "Selon le tableau des fréquences de l'annexe, quel équipement constitue le moyen secondaire d'alerte ?",
+   "question": "Outre l'installation VHF avec ASN, quel équipement constitue le moyen secondaire d'alerte en cas de détresse ?",
    "choices": [
     "L'ATIS",
     "Le combiné VHF",
@@ -8624,7 +8618,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4173",
    "type": "qcm",
-   "question": "Dans le tableau des fréquences de détresse de l'annexe, quelle fréquence MF est indiquée pour la radiotéléphonie ?",
+   "question": "Quelle fréquence MF (ondes hectométriques) est utilisée pour les communications de détresse en radiotéléphonie ?",
    "choices": [
     "2187,5 kHz",
     "4125 kHz",
@@ -8645,7 +8639,7 @@ window.QUESTIONS_DATA = {
   {
    "id": "Q4174",
    "type": "qcm",
-   "question": "Sur les cartes de l'annexe des zones de navigation, que signifie une zone représentée en noir ?",
+   "question": "Sur les cartes des zones de navigation intérieure indiquant où l'ATIS est obligatoire (voir légende), que signifie une zone représentée en noir ?",
    "choices": [
     "ATIS non obligatoire",
     "Navigation interdite",
@@ -8723,7 +8717,7 @@ window.QUESTIONS_DATA = {
    "category": "cadre-legal-autorisations",
    "difficulty": "difficile",
    "reasoning_type": "combinaison",
-   "question": "Sophie achète un voilier belge d'occasion sur lequel une VHF fixe est déjà installée. Elle souhaite aussi s'équiper d'un portophone. Quelle démarche est conforme au manuel ?",
+   "question": "Sophie achète un voilier belge d'occasion sur lequel une VHF fixe est déjà installée. Elle souhaite aussi s'équiper d'un portophone. Quelle démarche est conforme à la réglementation ?",
    "choices": [
     {
      "id": "A",
@@ -8773,7 +8767,7 @@ window.QUESTIONS_DATA = {
    "category": "cadre-legal-autorisations",
    "difficulty": "moyen",
    "reasoning_type": "mise_en_situation",
-   "question": "Un agent de la police fédérale contrôle un yacht belge en mer et demande à voir l'autorisation de station. Quel comportement du skipper est conforme au manuel ?",
+   "question": "Un agent de la police fédérale contrôle un yacht belge en mer et demande à voir l'autorisation de station. Quel comportement du skipper est correct ?",
    "choices": [
     {
      "id": "A",
@@ -8813,11 +8807,19 @@ window.QUESTIONS_DATA = {
     },
     {
      "page": 10,
+     "quote": "Contrôle de la Navigation, la douane...) peuvent exiger la production immédiate de l'original de l’autorisation de station."
+    },
+    {
+     "page": 10,
      "quote": "Le titulaire d'une autorisation doit toujours permettre aux autorités de contrôle d'accéder à la station et faciliter leur tâche dans toute la mesure de ses moyens."
     },
     {
      "page": 8,
      "quote": "L’autorisation de station est la permission de détenir un appareil. Elle reproduit l’état correct de l’équipement à bord. Les modifications manuelles sont interdites."
+    },
+    {
+     "page": 7,
+     "quote": "En cas de modifications administratives, de modifications de composition de l’installation radioélectrique ou de changement du nom du navire, une autorisation de station adaptée doit être demandée."
     }
    ],
    "kind": "raisonnement"
@@ -9209,7 +9211,7 @@ window.QUESTIONS_DATA = {
    "category": "equipements-installations",
    "difficulty": "moyen",
    "reasoning_type": "detection_erreur",
-   "question": "Laquelle de ces configurations n'est PAS conforme aux puissances de sortie prévues par le manuel ?",
+   "question": "Laquelle de ces configurations n'est PAS conforme aux puissances de sortie prévues par la réglementation ?",
    "choices": [
     {
      "id": "A",
@@ -9313,7 +9315,7 @@ window.QUESTIONS_DATA = {
    "category": "equipements-installations",
    "difficulty": "moyen",
    "reasoning_type": "detection_erreur",
-   "question": "Un propriétaire installe sa VHF et son antenne. Parmi ses choix, lequel est conforme au manuel ?",
+   "question": "Un propriétaire installe sa VHF et son antenne. Parmi ses choix, lequel est conforme aux règles d'installation ?",
    "choices": [
     {
      "id": "A",
@@ -9367,7 +9369,7 @@ window.QUESTIONS_DATA = {
    "category": "equipements-installations",
    "difficulty": "moyen",
    "reasoning_type": "detection_erreur",
-   "question": "Au printemps, un skipper constate que la portée de sa VHF a fortement diminué et que l'appareil fonctionne mal. Il découvre que le connecteur entre le câble et l'antenne n'est plus étanche. Laquelle des explications suivantes est cohérente avec le manuel ?",
+   "question": "Au printemps, un skipper constate que la portée de sa VHF a fortement diminué et que l'appareil fonctionne mal. Il découvre que le connecteur entre le câble et l'antenne n'est plus étanche. Laquelle des explications suivantes est correcte ?",
    "choices": [
     {
      "id": "A",
@@ -9471,7 +9473,7 @@ window.QUESTIONS_DATA = {
    "category": "frequences-modes",
    "difficulty": "moyen",
    "reasoning_type": "application_regle",
-   "question": "En mer, un voilier a son antenne VHF à 9 m au-dessus de l'eau et appelle un bateau à moteur dont l'antenne est à 4 m. Quelle est la portée théorique de cette liaison selon la formule du manuel ?",
+   "question": "En mer, un voilier a son antenne VHF à 9 m au-dessus de l'eau et appelle un bateau à moteur dont l'antenne est à 4 m. Quelle est la portée théorique de cette liaison selon la formule de calcul de la portée VHF en mer ?",
    "choices": [
     {
      "id": "A",
@@ -9517,7 +9519,7 @@ window.QUESTIONS_DATA = {
    "category": "frequences-modes",
    "difficulty": "difficile",
    "reasoning_type": "combinaison",
-   "question": "Un équipier tient un portophone à environ 1 m au-dessus de l'eau. L'antenne de la station côtière qu'il appelle est à 64 m de hauteur. En appliquant la formule du manuel, quelle est la portée théorique exprimée en kilomètres ?",
+   "question": "Un équipier tient un portophone à environ 1 m au-dessus de l'eau. L'antenne de la station côtière qu'il appelle est à 64 m de hauteur. En appliquant la formule de calcul de la portée VHF en mer, quelle est la portée théorique exprimée en kilomètres ?",
    "choices": [
     {
      "id": "A",
@@ -10111,7 +10113,7 @@ window.QUESTIONS_DATA = {
    "category": "procedures-generales",
    "difficulty": "moyen",
    "reasoning_type": "discrimination",
-   "question": "En mer, un yacht belge appelle un cargo allemand pour une communication navire-navire. Quelle(s) langue(s) le manuel autorise-t-il ?",
+   "question": "En mer, un yacht belge appelle un cargo allemand pour une communication navire-navire. Quelle(s) langue(s) peut-il utiliser ?",
    "choices": [
     {
      "id": "A",
@@ -10157,7 +10159,7 @@ window.QUESTIONS_DATA = {
    "category": "procedures-generales",
    "difficulty": "moyen",
    "reasoning_type": "combinaison",
-   "question": "Oostende Radio a demandé à votre navire de réduire sa puissance d'émission et de veiller sur un canal déterminé. Peu après, une voie d'eau met votre navire en danger et vous jugez nécessaire d'appeler à l'aide sur un autre canal, en puissance élevée. Que prévoit le manuel ?",
+   "question": "Oostende Radio a demandé à votre navire de réduire sa puissance d'émission et de veiller sur un canal déterminé. Peu après, une voie d'eau met votre navire en danger et vous jugez nécessaire d'appeler à l'aide sur un autre canal, en puissance élevée. Que pouvez-vous faire ?",
    "choices": [
     {
      "id": "A",
@@ -10625,7 +10627,7 @@ window.QUESTIONS_DATA = {
    "category": "detresse-urgence-securite",
    "difficulty": "moyen",
    "reasoning_type": "detection_erreur",
-   "question": "Le voilier « Mistral » (OS1111) a repéré un conteneur dérivant sur une route de navigation et veut en avertir tous les navires. Quel début de message est conforme au manuel ?",
+   "question": "Le voilier « Mistral » (OS1111) a repéré un conteneur dérivant sur une route de navigation et veut en avertir tous les navires. Quel début de message est correct ?",
    "choices": [
     {
      "id": "A",
@@ -10729,7 +10731,7 @@ window.QUESTIONS_DATA = {
    "category": "navigation-maritime",
    "difficulty": "moyen",
    "reasoning_type": "combinaison",
-   "question": "À 15 milles d'Ostende, un équipier se blesse gravement et doit être évacué. Le voilier est équipé d'une VHF sans fonction ASN. Quelle démarche est conforme au manuel ?",
+   "question": "À 15 milles d'Ostende, un équipier se blesse gravement et doit être évacué. Le voilier est équipé d'une VHF sans fonction ASN. Quelle démarche est correcte ?",
    "choices": [
     {
      "id": "A",
@@ -10799,7 +10801,7 @@ window.QUESTIONS_DATA = {
    "category": "navigation-maritime",
    "difficulty": "moyen",
    "reasoning_type": "detection_erreur",
-   "question": "Un plaisancier veut téléphoner à un numéro à terre via Oostende Radio (correspondance publique). Laquelle de ses idées est conforme au manuel ?",
+   "question": "Un plaisancier veut téléphoner à un numéro à terre via Oostende Radio (correspondance publique). Laquelle de ses idées est correcte ?",
    "choices": [
     {
      "id": "A",
@@ -10949,7 +10951,7 @@ window.QUESTIONS_DATA = {
    "category": "navigation-interieure",
    "difficulty": "difficile",
    "reasoning_type": "mise_en_situation",
-   "question": "Un bateau belge possède un appareil qui permet de basculer entre les réglages prévus pour la navigation intérieure et ceux prévus pour la mer. Il quitte une voie intérieure pour naviguer en mer. Quel réglage est conforme au manuel ?",
+   "question": "Un bateau belge possède un appareil qui permet de basculer entre les réglages prévus pour la navigation intérieure et ceux prévus pour la mer. Il quitte une voie intérieure pour naviguer en mer. Quel réglage est correct ?",
    "choices": [
     {
      "id": "A",
@@ -11053,7 +11055,7 @@ window.QUESTIONS_DATA = {
    "category": "glossaire",
    "difficulty": "moyen",
    "reasoning_type": "discrimination",
-   "question": "En Suisse, une centrale reçoit les appels de la navigation, y compris les appels de détresse, informe les bateaux sur la situation de la voie navigable et peut guider le trafic. Selon le glossaire du manuel, comment s'appelle-t-elle ?",
+   "question": "En Suisse, une centrale reçoit les appels de la navigation, y compris les appels de détresse, informe les bateaux sur la situation de la voie navigable et peut guider le trafic. Comment s'appelle une telle centrale ?",
    "choices": [
     {
      "id": "A",
@@ -11107,7 +11109,7 @@ window.QUESTIONS_DATA = {
    "category": "glossaire",
    "difficulty": "moyen",
    "reasoning_type": "discrimination",
-   "question": "Un technicien mesure 25 W avec un wattmètre branché directement à la sortie de la VHF, avant le câble. Un collègue s'intéresse plutôt à la puissance effectivement émise par l'antenne. Quels termes du glossaire désignent respectivement ces deux grandeurs ?",
+   "question": "Un technicien mesure 25 W avec un wattmètre branché directement à la sortie de la VHF, avant le câble. Un collègue s'intéresse plutôt à la puissance effectivement émise par l'antenne. Quels termes désignent respectivement ces deux grandeurs ?",
    "choices": [
     {
      "id": "A",
@@ -11157,7 +11159,7 @@ window.QUESTIONS_DATA = {
    "category": "glossaire",
    "difficulty": "moyen",
    "reasoning_type": "discrimination",
-   "question": "Dans un convoi poussé, le patron du pousseur donne par radio à un matelot sur la barge de tête des instructions pour la manœuvre des aussières et l'amarrage. De quel type de radiocommunication s'agit-il selon le glossaire ?",
+   "question": "Dans un convoi poussé, le patron du pousseur donne par radio à un matelot sur la barge de tête des instructions pour la manœuvre des aussières et l'amarrage. De quel type de radiocommunication s'agit-il ?",
    "choices": [
     {
      "id": "A",
@@ -11203,7 +11205,7 @@ window.QUESTIONS_DATA = {
    "category": "glossaire",
    "difficulty": "moyen",
    "reasoning_type": "application_regle",
-   "question": "Une péniche-logement est amarrée en permanence à un quai et dispose d'une installation VHF. Selon la définition du glossaire, cette installation est-elle une « station de navire » ?",
+   "question": "Une péniche-logement est amarrée en permanence à un quai et dispose d'une installation VHF. Cette installation est-elle une « station de navire » au sens de la réglementation ?",
    "choices": [
     {
      "id": "A",
